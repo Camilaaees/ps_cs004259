@@ -1,0 +1,17 @@
+{
+    "name": "camilaes/projeto01",
+    "description": "Um projeto completo em MVC para um PetShop",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Petshop\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Camila Eduarda Servat",
+            "email": "cs004259@cfjl.com.br"
+        }
+    ],
+    "require": {}
+}
