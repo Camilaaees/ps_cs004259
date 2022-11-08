@@ -1,0 +1,6 @@
+[08-Nov-2022 20:41:34 America/Sao_Paulo] Erro PDO: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '%rio%'' at line 1 - Linha: 53
+[08-Nov-2022 20:41:34 America/Sao_Paulo] PHP Fatal error:  Uncaught Petshop\Core\Exception: Falha ao realizar consulta no banco de dados in C:\xampp\htdocs\projeto01\src\Core\DB.php:60
+Stack trace:
+#0 C:\xampp\htdocs\projeto01\public\index.php(7): Petshop\Core\DB::select('select * from e...', Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\projeto01\src\Core\DB.php on line 60
