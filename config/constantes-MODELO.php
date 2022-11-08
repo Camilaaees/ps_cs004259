@@ -27,7 +27,7 @@ define('DB_HOST', 'localhost');
 define('DB_SCHEMA', 'ps_cs004259');
 define('DB_USER', 'root');
 define('DB_PASSWORD', '');
-
+ 
 /**
  * DEFINIÇÕES DE ENVIO DE E-MAIL
  */
