@@ -15,9 +15,9 @@ define('PATH_PROJETO', __DIR__ . '/../');
  */
 
 define('URL', 'https://localhost');
-define('TEMPLATES', PATH_PROJETO . 'templates/');
-define('TBACKEND', TEMPLATES . 'backend/');
-define('TFRONTEND', TEMPLATES . 'frontend/');
+define('TEMPLATES', PATH_PROJETO, 'templates/');
+define('TBACKEND', TEMPLATES, 'backend/');
+define('TFRONTEND', TEMPLATES, 'frontend/');
 
 /**
  * DEFINIÇÕES DO BANCO DE DADOS
@@ -35,5 +35,5 @@ define('DB_PASSWORD', '');
 define('MAIL_HOST', 'smtp.gmail.com');
 define('MAIL_PORT', 587);
 define('MAIL_NAME', 'Bicho Novo Pet Shop');
-define('MAIL_USER', 'cs004259@cfjl.com.br');
-define('MAIL_PASS', '2004cami1');
+define('MAIL_USER', '');
+define('MAIL_PASS', '');
