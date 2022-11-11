@@ -4,3 +4,24 @@ Stack trace:
 #0 C:\xampp\htdocs\projeto01\public\index.php(7): Petshop\Core\DB::select('select * from e...', Array)
 #1 {main}
   thrown in C:\xampp\htdocs\projeto01\src\Core\DB.php on line 60
+[11-Nov-2022 19:44:36 America/Sao_Paulo] PHP Fatal error:  Uncaught Petshop\Core\Exception: Título é inválido in C:\xampp\htdocs\projeto01\src\Model\Dica.php:41
+Stack trace:
+#0 C:\xampp\htdocs\projeto01\src\Core\DAO.php(36): Petshop\Model\Dica->setTitulo('')
+#1 C:\xampp\htdocs\projeto01\public\index.php(8): Petshop\Core\DAO->__set('titulo', '')
+#2 {main}
+  thrown in C:\xampp\htdocs\projeto01\src\Model\Dica.php on line 41
+[11-Nov-2022 20:00:36 America/Sao_Paulo] PHP Fatal error:  Uncaught Petshop\Core\Exception: Os atributos da classe/propriedades não foram preenchidos in C:\xampp\htdocs\projeto01\src\Core\DAO.php:31
+Stack trace:
+#0 C:\xampp\htdocs\projeto01\public\index.php(8): Petshop\Core\DAO->getTableInfo()
+#1 {main}
+  thrown in C:\xampp\htdocs\projeto01\src\Core\DAO.php on line 31
+[11-Nov-2022 20:01:36 America/Sao_Paulo] PHP Fatal error:  Uncaught Petshop\Core\Exception: Os atributos da classe/propriedades não foram preenchidos in C:\xampp\htdocs\projeto01\src\Core\DAO.php:31
+Stack trace:
+#0 C:\xampp\htdocs\projeto01\public\index.php(8): Petshop\Core\DAO->getTableInfo()
+#1 {main}
+  thrown in C:\xampp\htdocs\projeto01\src\Core\DAO.php on line 31
+[11-Nov-2022 20:03:39 America/Sao_Paulo] PHP Fatal error:  Uncaught Petshop\Core\Exception: Os atributos da classe/propriedades não foram preenchidos in C:\xampp\htdocs\projeto01\src\Core\DAO.php:31
+Stack trace:
+#0 C:\xampp\htdocs\projeto01\public\index.php(8): Petshop\Core\DAO->getTableInfo()
+#1 {main}
+  thrown in C:\xampp\htdocs\projeto01\src\Core\DAO.php on line 31
