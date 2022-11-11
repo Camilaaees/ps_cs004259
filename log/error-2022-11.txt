@@ -25,3 +25,5 @@ Stack trace:
 #0 C:\xampp\htdocs\projeto01\public\index.php(8): Petshop\Core\DAO->getTableInfo()
 #1 {main}
   thrown in C:\xampp\htdocs\projeto01\src\Core\DAO.php on line 31
+[11-Nov-2022 20:20:05 America/Sao_Paulo] PHP Warning:  Undefined array key "campo" in C:\xampp\htdocs\projeto01\src\Core\DAO.php on line 112
+[11-Nov-2022 20:20:05 America/Sao_Paulo] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\projeto01\src\Core\DAO.php on line 112
