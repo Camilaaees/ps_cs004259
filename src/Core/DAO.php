@@ -168,6 +168,39 @@ class DAO
             $orderBy
         );
 
-        return DB::select($sql, array_values($params));
+        return DB::select($sql, $params);
+    }
+
+    
+    /**
+     * Carrega as informações da tabela para o objeto instanciado
+     *
+     * @param integer|string $id Chave primária procurada
+     * @return boolean
+     */
+    public function loadById(int|string $id) : bool
+    {
+        if (!$this->getPkName()) {
+            return false;
+        }
+
+        $registro = $this->find([
+            $this->getPkName() . '=' => $id
+        ]);
+
+        if (!isset($registro[0])) {
+            return false;
+        }
+
+        //THIS->FIND RETORNA UMA COLEÇÃO (VETOR), TEMOS QUE, PORTANTO
+        //ALIMENTAR O OBJETO, PROPRIEDADE POR PROPRIEDADE A PARTIR DESTE
+        //VETOR RETORNADO
+
+        $atributos = array_keys($this->getFields());
+        foreach ($atributos as $atributo) {
+            $this->$atributo = $registro[0][strtolower($atributo)];
+        }
+
+        return true;
     }
 }

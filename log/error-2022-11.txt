@@ -27,3 +27,8 @@ Stack trace:
   thrown in C:\xampp\htdocs\projeto01\src\Core\DAO.php on line 31
 [11-Nov-2022 20:20:05 America/Sao_Paulo] PHP Warning:  Undefined array key "campo" in C:\xampp\htdocs\projeto01\src\Core\DAO.php on line 112
 [11-Nov-2022 20:20:05 America/Sao_Paulo] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\projeto01\src\Core\DAO.php on line 112
+[11-Nov-2022 21:31:46 America/Sao_Paulo] PHP Fatal error:  Uncaught Petshop\Core\Exception: O atributo descicao não tem método 'get' associado in C:\xampp\htdocs\projeto01\src\Core\DAO.php:34
+Stack trace:
+#0 C:\xampp\htdocs\projeto01\public\index.php(11): Petshop\Core\DAO->__get('descicao')
+#1 {main}
+  thrown in C:\xampp\htdocs\projeto01\src\Core\DAO.php on line 34
