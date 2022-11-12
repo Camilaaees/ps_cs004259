@@ -203,4 +203,37 @@ class DAO
 
         return true;
     }
+
+    /**
+     * Método que, com todos os atributos obrigatóri9s alimentados
+     * salva os dados no banco de dados, se houver ID informado, então
+     * atualiza um registro, senão cria
+     *
+     * @return void
+     */
+
+    public function save() : bool
+    {
+        $nomeTabela = $this->getTableName();
+        $nomeCampoChave = $this->getPkName();
+        $valorCampoChave = $this->$nomeCampoChave;
+
+        $campos = [];
+        foreach($this->getFields() as $atributo => $parametros) {
+            if (array_key_exists('auto', $parametros)) {
+                continue;
+            }
+
+            //verificar se o campo atual está nulo e é um not null (nn)
+
+            if (is_null($this->$atributo) && array_key_exists('nn', $parametros)) {
+                $label = $parametros['label'];
+                throw new Exception("O campo {$label} deve ser preenchido");
+            }
+
+            $campos[strtolower($atributo)] = $this->$atributo;
+        }
+        var_dump($campos);
+        die;
+    }
 }

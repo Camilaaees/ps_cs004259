@@ -32,3 +32,19 @@ Stack trace:
 #0 C:\xampp\htdocs\projeto01\public\index.php(11): Petshop\Core\DAO->__get('descicao')
 #1 {main}
   thrown in C:\xampp\htdocs\projeto01\src\Core\DAO.php on line 34
+[11-Nov-2022 21:49:13 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method Petshop\Model\Dica::iddica() in C:\xampp\htdocs\projeto01\src\Core\DAO.php:219
+Stack trace:
+#0 C:\xampp\htdocs\projeto01\public\index.php(10): Petshop\Core\DAO->save()
+#1 {main}
+  thrown in C:\xampp\htdocs\projeto01\src\Core\DAO.php on line 219
+[11-Nov-2022 21:50:20 America/Sao_Paulo] PHP Fatal error:  Uncaught Petshop\Core\Exception: O atributo atributo não tem método 'get' associado in C:\xampp\htdocs\projeto01\src\Core\DAO.php:34
+Stack trace:
+#0 C:\xampp\htdocs\projeto01\src\Core\DAO.php(233): Petshop\Core\DAO->__get('atributo')
+#1 C:\xampp\htdocs\projeto01\public\index.php(10): Petshop\Core\DAO->save()
+#2 {main}
+  thrown in C:\xampp\htdocs\projeto01\src\Core\DAO.php on line 34
+[11-Nov-2022 21:53:19 America/Sao_Paulo] PHP Fatal error:  Uncaught Petshop\Core\Exception: O campo Descrição deve ser preenchido in C:\xampp\htdocs\projeto01\src\Core\DAO.php:231
+Stack trace:
+#0 C:\xampp\htdocs\projeto01\public\index.php(9): Petshop\Core\DAO->save()
+#1 {main}
+  thrown in C:\xampp\htdocs\projeto01\src\Core\DAO.php on line 231
