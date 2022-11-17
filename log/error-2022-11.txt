@@ -57,3 +57,15 @@ Stack trace:
 #2 C:\xampp\htdocs\projeto01\public\index.php(10): Petshop\Core\DAO->save()
 #3 {main}
   thrown in C:\xampp\htdocs\projeto01\src\Core\DB.php on line 31
+[17-Nov-2022 20:18:19 America/Sao_Paulo] PHP Warning:  Undefined variable $cidade in C:\xampp\htdocs\projeto01\public\index.php on line 8
+[17-Nov-2022 20:18:19 America/Sao_Paulo] PHP Warning:  Attempt to read property "find" on null in C:\xampp\htdocs\projeto01\public\index.php on line 8
+[17-Nov-2022 20:18:36 America/Sao_Paulo] PHP Fatal error:  Uncaught Petshop\Core\Exception: O atributo find não tem método 'get' associado in C:\xampp\htdocs\projeto01\src\Core\DAO.php:34
+Stack trace:
+#0 C:\xampp\htdocs\projeto01\public\index.php(8): Petshop\Core\DAO->__get('find')
+#1 {main}
+  thrown in C:\xampp\htdocs\projeto01\src\Core\DAO.php on line 34
+[17-Nov-2022 20:19:44 America/Sao_Paulo] PHP Fatal error:  Uncaught Petshop\Core\Exception: O atributo find não tem método 'get' associado in C:\xampp\htdocs\projeto01\src\Core\DAO.php:34
+Stack trace:
+#0 C:\xampp\htdocs\projeto01\public\index.php(8): Petshop\Core\DAO->__get('find')
+#1 {main}
+  thrown in C:\xampp\htdocs\projeto01\src\Core\DAO.php on line 34
