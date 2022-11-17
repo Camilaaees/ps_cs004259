@@ -48,3 +48,12 @@ Stack trace:
 #0 C:\xampp\htdocs\projeto01\public\index.php(9): Petshop\Core\DAO->save()
 #1 {main}
   thrown in C:\xampp\htdocs\projeto01\src\Core\DAO.php on line 231
+[17-Nov-2022 19:21:55 America/Sao_Paulo] PHP Warning:  Undefined variable $nomeDaTabela in C:\xampp\htdocs\projeto01\src\Core\DAO.php on line 242
+[17-Nov-2022 19:25:32 America/Sao_Paulo] SQLSTATE[HY000] [2002] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+[17-Nov-2022 19:25:32 America/Sao_Paulo] PHP Fatal error:  Uncaught Petshop\Core\Exception: Falha ao realizar a conexão com o servidor, por favor, tente novamente mais tarde in C:\xampp\htdocs\projeto01\src\Core\DB.php:31
+Stack trace:
+#0 C:\xampp\htdocs\projeto01\src\Core\DB.php(80): Petshop\Core\DB::getInstance()
+#1 C:\xampp\htdocs\projeto01\src\Core\DAO.php(248): Petshop\Core\DB::query('INSERT INTO dic...', Array)
+#2 C:\xampp\htdocs\projeto01\public\index.php(10): Petshop\Core\DAO->save()
+#3 {main}
+  thrown in C:\xampp\htdocs\projeto01\src\Core\DB.php on line 31

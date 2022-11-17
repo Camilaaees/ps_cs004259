@@ -214,7 +214,7 @@ class DAO
 
     public function save() : bool
     {
-        $nomeTabela = $this->getTableName();
+        $nomeDaTabela = $this->getTableName();
         $nomeCampoChave = $this->getPkName();
         $valorCampoChave = $this->$nomeCampoChave;
 
@@ -233,7 +233,36 @@ class DAO
 
             $campos[strtolower($atributo)] = $this->$atributo;
         }
-        var_dump($campos);
-        die;
+        
+        //  se não tiver valor no atributo do camo chave
+        // será feito um insert, pois não é um campo conhecido
+
+        if (empty($valorCampoChave)) {
+            $sql = sprintf(
+                'INSERT INTO %s (%s) VALUES (%s)',
+                $nomeDaTabela,
+                implode(', ', array_keys($campos)),
+                trim(str_repeat('?,', count($campos)), ',')
+            );
+
+            DB::query($sql, $campos);
+
+            $this->loadById(DB::getInstance()->lastInsertId());
+
+            return true;
+        }
+
+        $sql = sprintf(
+            'UPDATE %s SET %s WHERE %s = %s',
+            $nomeDaTabela,
+            implode('=?, ', array_keys($campos)) . '=?' ,
+            $nomeCampoChave,
+            $valorCampoChave
+        );
+        
+        DB::query($sql, $campos);
+        $this->loadById($valorCampoChave);
+
+        return true;
     }
 }
