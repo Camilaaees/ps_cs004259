@@ -69,3 +69,23 @@ Stack trace:
 #0 C:\xampp\htdocs\projeto01\public\index.php(8): Petshop\Core\DAO->__get('find')
 #1 {main}
   thrown in C:\xampp\htdocs\projeto01\src\Core\DAO.php on line 34
+[18-Nov-2022 19:29:16 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class "Petshop\Model\Estado" not found in C:\xampp\htdocs\projeto01\src\Controller\HomeController.php:12
+Stack trace:
+#0 [internal function]: Petshop\Controller\HomeController->index()
+#1 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(482): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke('Petshop\\Control...', Array)
+#3 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#4 C:\xampp\htdocs\projeto01\src\Core\App.php(35): Bramus\Router\Router->run()
+#5 C:\xampp\htdocs\projeto01\public\index.php(5): Petshop\Core\App::start()
+#6 {main}
+  thrown in C:\xampp\htdocs\projeto01\src\Controller\HomeController.php on line 12
+[18-Nov-2022 19:29:18 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class "Petshop\Model\Estado" not found in C:\xampp\htdocs\projeto01\src\Controller\HomeController.php:12
+Stack trace:
+#0 [internal function]: Petshop\Controller\HomeController->index()
+#1 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(482): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke('Petshop\\Control...', Array)
+#3 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#4 C:\xampp\htdocs\projeto01\src\Core\App.php(35): Bramus\Router\Router->run()
+#5 C:\xampp\htdocs\projeto01\public\index.php(5): Petshop\Core\App::start()
+#6 {main}
+  thrown in C:\xampp\htdocs\projeto01\src\Controller\HomeController.php on line 12
