@@ -9,6 +9,7 @@ define('BACKEND_TITLE', 'Bicho Novo');
 define('TIMEZONE', 'America/Sao_Paulo');
 define('DISPLAY_ERRORS', 1);
 define('PATH_PROJETO', __DIR__ . '/../');
+define('SALT_SENHA', '123ABC');
 
 /**
  * DEFINIÇÕES DE PATH DE ARQUIVOS
