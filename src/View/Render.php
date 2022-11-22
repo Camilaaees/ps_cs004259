@@ -37,4 +37,35 @@ class Render
         require_once $pathPagina;
         require_once TFRONTEND . 'common/bottom.php';
     }
+
+    /**
+     * Método que retorma o conteúdo de um bloco (arquivo.php)
+     *
+     * @param string $bloco Nome do bloco a ser renderizado e retornado
+     * @param array $dados Dados a serem inseridos no bloco
+     * @return void
+     */
+    static public function block(string $bloco, array $dados=[])
+    {
+        //monta o caminho do local onde o bloco solicitado está 
+        $pathArquivo = TFRONTEND . 'blocks/' . $bloco . '.php';
+
+        if (!file_exists($pathArquivo)) {
+            error_log('Bloco template não localizado em: '.$pathArquivo);
+            throw new Exception("O bloco solicitada '{$bloco}' não foi localizado");
+        }
+
+        //transforma os índeices do vetor em variáveis
+        extract($dados);
+
+        //iniciamos a captura do buffer para não printar ao usuário
+        //o conteúdo do arquivo que será requirido
+        ob_start();
+
+        //carrega o conteúdo do arquivo  para o buffer (estamos em OB_START)
+        require_once $pathArquivo;
+
+        //retorna o conteúdo em buffer e limpa a memória
+        return ob_get_clean();
+    }
 }
