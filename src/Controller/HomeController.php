@@ -9,13 +9,14 @@ class HomeController
 {
     public function index()
     {
-        $objetoEstado = new Estado();
-        $estados = $objetoEstado->find();
+        $estados = ( new Estado() )->find();
 
         $dados = [];
         $dados['titulo'] = 'Lista de Estados';
         $dados['estados'] = $estados;
+        $dados['topo'] = Render::block('topo');
 
         Render::front('home', $dados);
     }
+
 }
