@@ -1,0 +1,25 @@
+.topo-site {
+    background-color: #231f20;
+    color: #efe6dd;
+}
+.topo-site a {
+    color: #efe6dd;
+    text-decoration: none;
+    transition: .2s;
+}
+.topo-site a:hover {
+    color: #f3dfa2;
+}
+.topo-site .input-busca {
+    box-shadow: none;
+    border-color: transparent;
+}
+.topo-site .btn-busca {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    border: none;
+    background-color: transparent;
+    width: 3em;
+}
