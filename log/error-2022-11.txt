@@ -90,3 +90,16 @@ Stack trace:
 #6 {main}
   thrown in C:\xampp\htdocs\projeto01\src\Controller\HomeController.php on line 12
 [22-Nov-2022 19:50:29 America/Sao_Paulo] PHP Warning:  Undefined variable $topo in C:\xampp\htdocs\projeto01\templates\frontend\common\top.php on line 23
+[28-Nov-2022 20:29:46 America/Sao_Paulo] PHP Warning:  Array to string conversion in C:\xampp\htdocs\projeto01\src\Controller\HomeController.php on line 20
+[28-Nov-2022 20:29:46 America/Sao_Paulo] Bloco template não localizado em: C:\xampp\htdocs\projeto01\config/../templates/frontend/blocks/rodapeArray.php
+[28-Nov-2022 20:29:46 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: O bloco solicitada 'rodapeArray' não foi localizado in C:\xampp\htdocs\projeto01\src\View\Render.php:55
+Stack trace:
+#0 C:\xampp\htdocs\projeto01\src\Controller\HomeController.php(20): Petshop\View\Render::block('rodapeArray')
+#1 [internal function]: Petshop\Controller\HomeController->index()
+#2 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(482): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke('Petshop\\Control...', Array)
+#4 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#5 C:\xampp\htdocs\projeto01\src\Core\App.php(35): Bramus\Router\Router->run()
+#6 C:\xampp\htdocs\projeto01\public\index.php(5): Petshop\Core\App::start()
+#7 {main}
+  thrown in C:\xampp\htdocs\projeto01\src\View\Render.php on line 55
