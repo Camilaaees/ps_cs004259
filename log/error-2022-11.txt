@@ -106,3 +106,19 @@ Stack trace:
 [28-Nov-2022 21:31:59 America/Sao_Paulo] PHP Warning:  Undefined array key "POST" in C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php on line 292
 [28-Nov-2022 21:33:47 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected token ";", expecting "]" in C:\xampp\htdocs\projeto01\src\Controller\LoginController.php on line 24
 [28-Nov-2022 21:33:54 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected token ";", expecting "]" in C:\xampp\htdocs\projeto01\src\Controller\LoginController.php on line 24
+[29-Nov-2022 19:57:11 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected token "=>", expecting "]" in C:\xampp\htdocs\projeto01\src\Controller\CadastroController.php on line 24
+[29-Nov-2022 20:00:04 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected token "=>", expecting "]" in C:\xampp\htdocs\projeto01\src\Controller\CadastroController.php on line 24
+[29-Nov-2022 20:05:43 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected token "=>", expecting "]" in C:\xampp\htdocs\projeto01\src\Controller\CadastroController.php on line 24
+[29-Nov-2022 20:05:44 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected token "=>", expecting "]" in C:\xampp\htdocs\projeto01\src\Controller\CadastroController.php on line 24
+[29-Nov-2022 20:07:04 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected token "=>", expecting "]" in C:\xampp\htdocs\projeto01\src\Controller\CadastroController.php on line 24
+[29-Nov-2022 20:14:01 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Undefined constant "Petshop\Controller\tr" in C:\xampp\htdocs\projeto01\src\Controller\CadastroController.php:32
+Stack trace:
+#0 C:\xampp\htdocs\projeto01\src\Controller\CadastroController.php(16): Petshop\Controller\CadastroController->formCadastro()
+#1 [internal function]: Petshop\Controller\CadastroController->cadastro()
+#2 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(482): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke('Petshop\\Control...', Array)
+#4 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#5 C:\xampp\htdocs\projeto01\src\Core\App.php(37): Bramus\Router\Router->run()
+#6 C:\xampp\htdocs\projeto01\public\index.php(5): Petshop\Core\App::start()
+#7 {main}
+  thrown in C:\xampp\htdocs\projeto01\src\Controller\CadastroController.php on line 32
