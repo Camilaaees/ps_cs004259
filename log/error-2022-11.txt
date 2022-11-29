@@ -103,3 +103,6 @@ Stack trace:
 #6 C:\xampp\htdocs\projeto01\public\index.php(5): Petshop\Core\App::start()
 #7 {main}
   thrown in C:\xampp\htdocs\projeto01\src\View\Render.php on line 55
+[28-Nov-2022 21:31:59 America/Sao_Paulo] PHP Warning:  Undefined array key "POST" in C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php on line 292
+[28-Nov-2022 21:33:47 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected token ";", expecting "]" in C:\xampp\htdocs\projeto01\src\Controller\LoginController.php on line 24
+[28-Nov-2022 21:33:54 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected token ";", expecting "]" in C:\xampp\htdocs\projeto01\src\Controller\LoginController.php on line 24
