@@ -3,7 +3,6 @@
 namespace Petshop\Controller;
 
 use Petshop\Core\FrontController;
-use Petshop\Model\Estado;
 use Petshop\View\Render;
 
 class HomeController extends FrontController
