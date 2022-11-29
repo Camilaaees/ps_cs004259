@@ -44,3 +44,9 @@
 .rodape-site .info-matriz {
     font-size: .8em;
 }
+
+/*Classes de Apoio*/
+
+.pg-login .btn-conta {
+    margin-top: 5em;
+}

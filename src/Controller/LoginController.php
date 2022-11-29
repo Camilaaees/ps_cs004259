@@ -22,7 +22,7 @@ class LoginController extends FrontController
     {
         $dados = [
             'btn_label'=>'Entrar',
-            'btn_class'=>'btn btn-warning',
+            'btn_class'=>'btn btn-warning mt-4 w-75',
             'fields'=>[
                 ['type'=>'email', 'name'=>'email', 'label'=>'Usuário', 'placeholder'=>'Seu e-mail cadastrado', 'required'=>true],
                 ['type'=>'password', 'name'=>'senha', 'required'=>true],
