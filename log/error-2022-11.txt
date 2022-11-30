@@ -122,3 +122,92 @@ Stack trace:
 #6 C:\xampp\htdocs\projeto01\public\index.php(5): Petshop\Core\App::start()
 #7 {main}
   thrown in C:\xampp\htdocs\projeto01\src\Controller\CadastroController.php on line 32
+[29-Nov-2022 20:31:51 America/Sao_Paulo] PHP Warning:  Array to string conversion in C:\xampp\htdocs\projeto01\src\Controller\CadastroController.php on line 25
+[29-Nov-2022 20:31:51 America/Sao_Paulo] PHP Fatal error:  Uncaught TypeError: Petshop\Model\Cliente::setTipo(): Argument #1 ($tipo) must be of type string, null given, called in C:\xampp\htdocs\projeto01\src\Core\DAO.php on line 50 and defined in C:\xampp\htdocs\projeto01\src\Model\Cliente.php:48
+Stack trace:
+#0 C:\xampp\htdocs\projeto01\src\Core\DAO.php(50): Petshop\Model\Cliente->setTipo(NULL)
+#1 C:\xampp\htdocs\projeto01\src\Controller\CadastroController.php(25): Petshop\Core\DAO->__set('tipo', NULL)
+#2 [internal function]: Petshop\Controller\CadastroController->postCadastro()
+#3 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(482): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke('Petshop\\Control...', Array)
+#5 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#6 C:\xampp\htdocs\projeto01\src\Core\App.php(37): Bramus\Router\Router->run()
+#7 C:\xampp\htdocs\projeto01\public\index.php(5): Petshop\Core\App::start()
+#8 {main}
+  thrown in C:\xampp\htdocs\projeto01\src\Model\Cliente.php on line 48
+[29-Nov-2022 20:32:17 America/Sao_Paulo] PHP Warning:  Array to string conversion in C:\xampp\htdocs\projeto01\src\Controller\CadastroController.php on line 25
+[29-Nov-2022 20:32:17 America/Sao_Paulo] PHP Fatal error:  Uncaught TypeError: Petshop\Model\Cliente::setTipo(): Argument #1 ($tipo) must be of type string, null given, called in C:\xampp\htdocs\projeto01\src\Core\DAO.php on line 50 and defined in C:\xampp\htdocs\projeto01\src\Model\Cliente.php:48
+Stack trace:
+#0 C:\xampp\htdocs\projeto01\src\Core\DAO.php(50): Petshop\Model\Cliente->setTipo(NULL)
+#1 C:\xampp\htdocs\projeto01\src\Controller\CadastroController.php(25): Petshop\Core\DAO->__set('tipo', NULL)
+#2 [internal function]: Petshop\Controller\CadastroController->postCadastro()
+#3 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(482): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke('Petshop\\Control...', Array)
+#5 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#6 C:\xampp\htdocs\projeto01\src\Core\App.php(37): Bramus\Router\Router->run()
+#7 C:\xampp\htdocs\projeto01\public\index.php(5): Petshop\Core\App::start()
+#8 {main}
+  thrown in C:\xampp\htdocs\projeto01\src\Model\Cliente.php on line 48
+[29-Nov-2022 20:35:35 America/Sao_Paulo] PHP Warning:  Array to string conversion in C:\xampp\htdocs\projeto01\src\Controller\CadastroController.php on line 25
+[29-Nov-2022 20:35:35 America/Sao_Paulo] PHP Fatal error:  Uncaught TypeError: Petshop\Model\Cliente::setTipo(): Argument #1 ($tipo) must be of type string, null given, called in C:\xampp\htdocs\projeto01\src\Core\DAO.php on line 50 and defined in C:\xampp\htdocs\projeto01\src\Model\Cliente.php:48
+Stack trace:
+#0 C:\xampp\htdocs\projeto01\src\Core\DAO.php(50): Petshop\Model\Cliente->setTipo(NULL)
+#1 C:\xampp\htdocs\projeto01\src\Controller\CadastroController.php(25): Petshop\Core\DAO->__set('tipo', NULL)
+#2 [internal function]: Petshop\Controller\CadastroController->postCadastro()
+#3 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(482): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke('Petshop\\Control...', Array)
+#5 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#6 C:\xampp\htdocs\projeto01\src\Core\App.php(37): Bramus\Router\Router->run()
+#7 C:\xampp\htdocs\projeto01\public\index.php(5): Petshop\Core\App::start()
+#8 {main}
+  thrown in C:\xampp\htdocs\projeto01\src\Model\Cliente.php on line 48
+[29-Nov-2022 20:37:51 America/Sao_Paulo] PHP Warning:  Array to string conversion in C:\xampp\htdocs\projeto01\src\Controller\CadastroController.php on line 25
+[29-Nov-2022 20:37:51 America/Sao_Paulo] PHP Fatal error:  Uncaught TypeError: Petshop\Model\Cliente::setTipo(): Argument #1 ($tipo) must be of type string, null given, called in C:\xampp\htdocs\projeto01\src\Core\DAO.php on line 50 and defined in C:\xampp\htdocs\projeto01\src\Model\Cliente.php:48
+Stack trace:
+#0 C:\xampp\htdocs\projeto01\src\Core\DAO.php(50): Petshop\Model\Cliente->setTipo(NULL)
+#1 C:\xampp\htdocs\projeto01\src\Controller\CadastroController.php(25): Petshop\Core\DAO->__set('tipo', NULL)
+#2 [internal function]: Petshop\Controller\CadastroController->postCadastro()
+#3 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(482): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke('Petshop\\Control...', Array)
+#5 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#6 C:\xampp\htdocs\projeto01\src\Core\App.php(37): Bramus\Router\Router->run()
+#7 C:\xampp\htdocs\projeto01\public\index.php(5): Petshop\Core\App::start()
+#8 {main}
+  thrown in C:\xampp\htdocs\projeto01\src\Model\Cliente.php on line 48
+[29-Nov-2022 20:40:02 America/Sao_Paulo] PHP Warning:  Array to string conversion in C:\xampp\htdocs\projeto01\src\Controller\CadastroController.php on line 25
+[29-Nov-2022 20:40:02 America/Sao_Paulo] PHP Fatal error:  Uncaught TypeError: Petshop\Model\Cliente::setTipo(): Argument #1 ($tipo) must be of type string, null given, called in C:\xampp\htdocs\projeto01\src\Core\DAO.php on line 50 and defined in C:\xampp\htdocs\projeto01\src\Model\Cliente.php:48
+Stack trace:
+#0 C:\xampp\htdocs\projeto01\src\Core\DAO.php(50): Petshop\Model\Cliente->setTipo(NULL)
+#1 C:\xampp\htdocs\projeto01\src\Controller\CadastroController.php(25): Petshop\Core\DAO->__set('tipo', NULL)
+#2 [internal function]: Petshop\Controller\CadastroController->postCadastro()
+#3 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(482): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke('Petshop\\Control...', Array)
+#5 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#6 C:\xampp\htdocs\projeto01\src\Core\App.php(37): Bramus\Router\Router->run()
+#7 C:\xampp\htdocs\projeto01\public\index.php(5): Petshop\Core\App::start()
+#8 {main}
+  thrown in C:\xampp\htdocs\projeto01\src\Model\Cliente.php on line 48
+[29-Nov-2022 20:40:39 America/Sao_Paulo] PHP Fatal error:  Uncaught Petshop\Core\Exception: O documento informado é inválido in C:\xampp\htdocs\projeto01\src\Model\Cliente.php:76
+Stack trace:
+#0 C:\xampp\htdocs\projeto01\src\Core\DAO.php(50): Petshop\Model\Cliente->setCpfcnpj('5278')
+#1 C:\xampp\htdocs\projeto01\src\Controller\CadastroController.php(26): Petshop\Core\DAO->__set('cpfcnpj', '5278')
+#2 [internal function]: Petshop\Controller\CadastroController->postCadastro()
+#3 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(482): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke('Petshop\\Control...', Array)
+#5 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#6 C:\xampp\htdocs\projeto01\src\Core\App.php(37): Bramus\Router\Router->run()
+#7 C:\xampp\htdocs\projeto01\public\index.php(5): Petshop\Core\App::start()
+#8 {main}
+  thrown in C:\xampp\htdocs\projeto01\src\Model\Cliente.php on line 76
+[29-Nov-2022 20:44:50 America/Sao_Paulo] PHP Fatal error:  Uncaught Petshop\Core\Exception: O documento informado é inválido in C:\xampp\htdocs\projeto01\src\Model\Cliente.php:76
+Stack trace:
+#0 C:\xampp\htdocs\projeto01\src\Core\DAO.php(50): Petshop\Model\Cliente->setCpfcnpj('5278')
+#1 C:\xampp\htdocs\projeto01\src\Controller\CadastroController.php(26): Petshop\Core\DAO->__set('cpfcnpj', '5278')
+#2 [internal function]: Petshop\Controller\CadastroController->postCadastro()
+#3 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(482): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke('Petshop\\Control...', Array)
+#5 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#6 C:\xampp\htdocs\projeto01\src\Core\App.php(40): Bramus\Router\Router->run()
+#7 C:\xampp\htdocs\projeto01\public\index.php(5): Petshop\Core\App::start()
+#8 {main}
+  thrown in C:\xampp\htdocs\projeto01\src\Model\Cliente.php on line 76
