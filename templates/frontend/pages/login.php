@@ -1,4 +1,10 @@
 <div class="containr my-5 pg-login">
+    
+    <div class="row">
+        <div class="col-6 mx-auto">
+            <?=retornaHTMLAlertMensagemSessao()?>
+        </div>
+    </div>
 
     <div class="row">
         <div class="col-3 ms-auto border-end">
