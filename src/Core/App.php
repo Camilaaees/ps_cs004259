@@ -52,6 +52,7 @@ class App
         self::$router->get('/login', 'Petshop\Controller\LoginController@login');
         self::$router->get('/cadastro', 'Petshop\Controller\CadastroController@cadastro');
         self::$router->post('/cadastro', 'Petshop\Controller\CadastroController@postCadastro');
+        self::$router->get('/meus-dados', 'Petshop\Controller\MeusDadosController@meusDados');
     }
 
     /**
