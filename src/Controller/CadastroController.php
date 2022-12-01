@@ -40,6 +40,8 @@ class CadastroController extends FrontController
             ];
             $this->cadastro();
         }
+
+        redireciona('/login', 'info', 'Cadastro realizado com sucesso, faça login para continuar');
     }
 
     private function formCadastro()
