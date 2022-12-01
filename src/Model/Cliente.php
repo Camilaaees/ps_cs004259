@@ -114,6 +114,9 @@ class Cliente extends DAO
     }
     public function setSenha(string $senha): self
     {
+        if (strlen($senha)<5) {
+            throw new Exception('O comprimento da senha é inválido, digite o menos cinco caracteres');
+        }
         $hashDaSenha = hash_hmac('md5', $senha, SALT_SENHA);
         $senha = password_hash($hashDaSenha, PASSWORD_DEFAULT);
         $this->senha = $senha;

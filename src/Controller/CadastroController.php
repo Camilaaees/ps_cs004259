@@ -29,6 +29,9 @@ class CadastroController extends FrontController
             $cliente->nome = $_POST['nome'] ?? null;
             $cliente->email = $_POST['email'] ?? null;
             $cliente->senha = $_POST['senha'] ?? null;
+            if ($_POST['senha'] != $_POST['senha2']) {
+                throw new Exception('O campo de senha e de confirmação de senha devem ter o mesmo valor');
+            }
             $cliente->save();
         } catch(Exception $e) {
             $_SESSION['mensagem'] = [
@@ -37,7 +40,6 @@ class CadastroController extends FrontController
             ];
             $this->cadastro();
         }
-        
     }
 
     private function formCadastro()
