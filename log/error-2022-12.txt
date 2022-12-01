@@ -1,1 +1,2 @@
 [01-Dec-2022 19:18:34 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\projeto01\templates\frontend\common\top.php:23) in C:\xampp\htdocs\projeto01\src\Controller\CadastroController.php on line 43
+[01-Dec-2022 19:36:21 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\projeto01\templates\frontend\common\top.php:23) in C:\xampp\htdocs\projeto01\src\Controller\CadastroController.php on line 49
