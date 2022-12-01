@@ -1,2 +1,50 @@
 [01-Dec-2022 19:18:34 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\projeto01\templates\frontend\common\top.php:23) in C:\xampp\htdocs\projeto01\src\Controller\CadastroController.php on line 43
 [01-Dec-2022 19:36:21 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\projeto01\templates\frontend\common\top.php:23) in C:\xampp\htdocs\projeto01\src\Controller\CadastroController.php on line 49
+[01-Dec-2022 20:20:51 America/Sao_Paulo] PHP Fatal error:  Uncaught ArgumentCountError: 6 arguments are required, 5 given in C:\xampp\htdocs\projeto01\src\Core\DB.php:88
+Stack trace:
+#0 C:\xampp\htdocs\projeto01\src\Core\DB.php(88): sprintf('ERRO PDO: %s, n...', 'SQLSTATE[42000]...', 70, 'SELECT * FROM c...', 'array (\n  'emai...')
+#1 C:\xampp\htdocs\projeto01\src\Core\DB.php(54): Petshop\Core\DB::query('SELECT * FROM c...', Array)
+#2 C:\xampp\htdocs\projeto01\src\Core\DAO.php(171): Petshop\Core\DB::select('SELECT * FROM c...', Array)
+#3 C:\xampp\htdocs\projeto01\src\Controller\LoginController.php(34): Petshop\Core\DAO->find(Array)
+#4 [internal function]: Petshop\Controller\LoginController->postLogin()
+#5 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(482): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke('Petshop\\Control...', Array)
+#7 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#8 C:\xampp\htdocs\projeto01\src\Core\App.php(40): Bramus\Router\Router->run()
+#9 C:\xampp\htdocs\projeto01\public\index.php(5): Petshop\Core\App::start()
+#10 {main}
+  thrown in C:\xampp\htdocs\projeto01\src\Core\DB.php on line 88
+[01-Dec-2022 20:21:36 America/Sao_Paulo] PHP Fatal error:  Uncaught ArgumentCountError: 6 arguments are required, 5 given in C:\xampp\htdocs\projeto01\src\Core\DB.php:88
+Stack trace:
+#0 C:\xampp\htdocs\projeto01\src\Core\DB.php(88): sprintf('ERRO PDO: %s, n...', 'SQLSTATE[42000]...', 70, 'SELECT * FROM c...', 'array (\n  'emai...')
+#1 C:\xampp\htdocs\projeto01\src\Core\DB.php(54): Petshop\Core\DB::query('SELECT * FROM c...', Array)
+#2 C:\xampp\htdocs\projeto01\src\Core\DAO.php(171): Petshop\Core\DB::select('SELECT * FROM c...', Array)
+#3 C:\xampp\htdocs\projeto01\src\Controller\LoginController.php(34): Petshop\Core\DAO->find(Array)
+#4 [internal function]: Petshop\Controller\LoginController->postLogin()
+#5 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(482): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke('Petshop\\Control...', Array)
+#7 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#8 C:\xampp\htdocs\projeto01\src\Core\App.php(40): Bramus\Router\Router->run()
+#9 C:\xampp\htdocs\projeto01\public\index.php(5): Petshop\Core\App::start()
+#10 {main}
+  thrown in C:\xampp\htdocs\projeto01\src\Core\DB.php on line 88
+[01-Dec-2022 20:32:05 America/Sao_Paulo] PHP Warning:  Undefined variable $$2y$10$lSQ58YzEz8pUalb901Jt9u6PJbIIkDrYtYHnTMZxkg8oDdeOtXic6 in C:\xampp\htdocs\projeto01\src\Controller\LoginController.php on line 43
+[01-Dec-2022 20:32:05 America/Sao_Paulo] PHP Deprecated:  password_verify(): Passing null to parameter #2 ($hash) of type string is deprecated in C:\xampp\htdocs\projeto01\src\Controller\LoginController.php on line 43
+[01-Dec-2022 20:32:53 America/Sao_Paulo] PHP Warning:  Undefined variable $$2y$10$lSQ58YzEz8pUalb901Jt9u6PJbIIkDrYtYHnTMZxkg8oDdeOtXic6 in C:\xampp\htdocs\projeto01\src\Controller\LoginController.php on line 43
+[01-Dec-2022 20:32:53 America/Sao_Paulo] PHP Deprecated:  password_verify(): Passing null to parameter #2 ($hash) of type string is deprecated in C:\xampp\htdocs\projeto01\src\Controller\LoginController.php on line 43
+[01-Dec-2022 20:33:37 America/Sao_Paulo] PHP Warning:  Undefined variable $$2y$10$3MDt..xSBsf5pQ0g6BoaP.9axRB77zjoAf3gocOuJF.bd3iYHOzqu in C:\xampp\htdocs\projeto01\src\Controller\LoginController.php on line 43
+[01-Dec-2022 20:33:37 America/Sao_Paulo] PHP Deprecated:  password_verify(): Passing null to parameter #2 ($hash) of type string is deprecated in C:\xampp\htdocs\projeto01\src\Controller\LoginController.php on line 43
+[01-Dec-2022 20:33:53 America/Sao_Paulo] PHP Warning:  Undefined variable $$2y$10$3MDt..xSBsf5pQ0g6BoaP.9axRB77zjoAf3gocOuJF.bd3iYHOzqu in C:\xampp\htdocs\projeto01\src\Controller\LoginController.php on line 43
+[01-Dec-2022 20:33:53 America/Sao_Paulo] PHP Deprecated:  password_verify(): Passing null to parameter #2 ($hash) of type string is deprecated in C:\xampp\htdocs\projeto01\src\Controller\LoginController.php on line 43
+[01-Dec-2022 20:33:54 America/Sao_Paulo] PHP Warning:  Undefined variable $$2y$10$3MDt..xSBsf5pQ0g6BoaP.9axRB77zjoAf3gocOuJF.bd3iYHOzqu in C:\xampp\htdocs\projeto01\src\Controller\LoginController.php on line 43
+[01-Dec-2022 20:33:54 America/Sao_Paulo] PHP Deprecated:  password_verify(): Passing null to parameter #2 ($hash) of type string is deprecated in C:\xampp\htdocs\projeto01\src\Controller\LoginController.php on line 43
+[01-Dec-2022 20:33:55 America/Sao_Paulo] PHP Warning:  Undefined variable $$2y$10$3MDt..xSBsf5pQ0g6BoaP.9axRB77zjoAf3gocOuJF.bd3iYHOzqu in C:\xampp\htdocs\projeto01\src\Controller\LoginController.php on line 43
+[01-Dec-2022 20:33:55 America/Sao_Paulo] PHP Deprecated:  password_verify(): Passing null to parameter #2 ($hash) of type string is deprecated in C:\xampp\htdocs\projeto01\src\Controller\LoginController.php on line 43
+[01-Dec-2022 20:33:55 America/Sao_Paulo] PHP Warning:  Undefined variable $$2y$10$3MDt..xSBsf5pQ0g6BoaP.9axRB77zjoAf3gocOuJF.bd3iYHOzqu in C:\xampp\htdocs\projeto01\src\Controller\LoginController.php on line 43
+[01-Dec-2022 20:33:55 America/Sao_Paulo] PHP Deprecated:  password_verify(): Passing null to parameter #2 ($hash) of type string is deprecated in C:\xampp\htdocs\projeto01\src\Controller\LoginController.php on line 43
+[01-Dec-2022 20:33:55 America/Sao_Paulo] PHP Warning:  Undefined variable $$2y$10$3MDt..xSBsf5pQ0g6BoaP.9axRB77zjoAf3gocOuJF.bd3iYHOzqu in C:\xampp\htdocs\projeto01\src\Controller\LoginController.php on line 43
+[01-Dec-2022 20:33:55 America/Sao_Paulo] PHP Deprecated:  password_verify(): Passing null to parameter #2 ($hash) of type string is deprecated in C:\xampp\htdocs\projeto01\src\Controller\LoginController.php on line 43
+[01-Dec-2022 20:33:56 America/Sao_Paulo] PHP Warning:  Undefined variable $$2y$10$3MDt..xSBsf5pQ0g6BoaP.9axRB77zjoAf3gocOuJF.bd3iYHOzqu in C:\xampp\htdocs\projeto01\src\Controller\LoginController.php on line 43
+[01-Dec-2022 20:33:56 America/Sao_Paulo] PHP Deprecated:  password_verify(): Passing null to parameter #2 ($hash) of type string is deprecated in C:\xampp\htdocs\projeto01\src\Controller\LoginController.php on line 43
+[01-Dec-2022 20:34:42 America/Sao_Paulo] PHP Warning:  Undefined variable $$2y$10$bhAEyOL/YmzZ.PmPHYO.M.a4HpUVyc3gZ7cXD2TCuLr6S7rr/mQgW in C:\xampp\htdocs\projeto01\src\Controller\LoginController.php on line 43
+[01-Dec-2022 20:34:42 America/Sao_Paulo] PHP Deprecated:  password_verify(): Passing null to parameter #2 ($hash) of type string is deprecated in C:\xampp\htdocs\projeto01\src\Controller\LoginController.php on line 43
