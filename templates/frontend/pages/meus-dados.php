@@ -1,7 +1,3 @@
-<?php
-    $cliente = $_SESSION['cliente'];
-    $cliente['prinome'] = substr($cliente['nome'], 0, strpos($cliente['nome'], ' '));
-?>
 <div class="container my-5">
     <div class="row">
         <div class="col-3 text-center bg-secondary text-light py-2 rounded-2">

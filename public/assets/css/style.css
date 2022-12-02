@@ -23,7 +23,9 @@
     background-color: transparent;
     width: 3em;
 }
-
+.topo-site .dropdown-menu {
+    background-color: #231f20;
+}
 
 
 
