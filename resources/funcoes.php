@@ -48,3 +48,17 @@ function redireciona ($destino, $tipoMsg='', $mensagem='')
     header('location:' . $destino);
     exit;
 }
+
+
+/**
+ * Vefirica se o cliente está logado, se não estiver redireciona para 
+ * a página de login e exibe uma mensagem 
+ *
+ * @return void
+ */
+function acessoRestrito() 
+{
+    if ( empty($_SESSION['cliente']) ) {
+        redireciona('/login', 'danger', 'Faça o logon para continuar');
+    }
+}

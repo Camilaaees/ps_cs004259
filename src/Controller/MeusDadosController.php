@@ -9,6 +9,8 @@ class MeusDadosController extends FrontController
 {
     public function meusDados()
     {
+        acessoRestrito();
+        
         $dados = [];
         $dados['topo'] = $this->carregaHTMLTopo();
         $dados['rodape'] = $this->carregaHTMLRodape();
