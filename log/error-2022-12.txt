@@ -50,3 +50,4 @@ Stack trace:
 [01-Dec-2022 20:34:42 America/Sao_Paulo] PHP Deprecated:  password_verify(): Passing null to parameter #2 ($hash) of type string is deprecated in C:\xampp\htdocs\projeto01\src\Controller\LoginController.php on line 43
 [01-Dec-2022 21:23:34 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\projeto01\templates\frontend\common\top.php:23) in C:\xampp\htdocs\projeto01\resources\funcoes.php on line 48
 [01-Dec-2022 21:24:03 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\projeto01\templates\frontend\common\top.php:23) in C:\xampp\htdocs\projeto01\resources\funcoes.php on line 48
+[02-Dec-2022 20:09:44 America/Sao_Paulo] PHP Warning:  Undefined array key "prinome" in C:\xampp\htdocs\projeto01\templates\frontend\blocks\topo.php on line 13
