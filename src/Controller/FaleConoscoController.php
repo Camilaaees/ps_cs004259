@@ -20,6 +20,12 @@ class FaleConoscoController extends FrontController
 
     private function formFaleConosco()
     {
-        
+        $dados = [
+            ['type'=>'text', 'name'=>'nome', 'label'=>'Nome Completo', 'requied'=>true],
+            ['type'=>'email', 'name'=>'email', 'label'=>'E-mail', 'requied'=>true],
+            ['type'=>'textarea', 'name'=>'mensagem', 'label'=>'Mensagem', 'requied'=>true]
+        ];
+
+        return Render::block('form', $dados);
     }
 }
