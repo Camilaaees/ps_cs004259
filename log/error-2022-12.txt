@@ -51,3 +51,105 @@ Stack trace:
 [01-Dec-2022 21:23:34 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\projeto01\templates\frontend\common\top.php:23) in C:\xampp\htdocs\projeto01\resources\funcoes.php on line 48
 [01-Dec-2022 21:24:03 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\projeto01\templates\frontend\common\top.php:23) in C:\xampp\htdocs\projeto01\resources\funcoes.php on line 48
 [02-Dec-2022 20:09:44 America/Sao_Paulo] PHP Warning:  Undefined array key "prinome" in C:\xampp\htdocs\projeto01\templates\frontend\blocks\topo.php on line 13
+[05-Dec-2022 19:15:58 America/Sao_Paulo] PHP Warning:  Undefined variable $cliente in C:\xampp\htdocs\projeto01\templates\frontend\pages\meus-dados.php on line 4
+[05-Dec-2022 19:15:58 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\projeto01\templates\frontend\pages\meus-dados.php on line 4
+[05-Dec-2022 19:15:58 America/Sao_Paulo] PHP Warning:  Undefined variable $cliente in C:\xampp\htdocs\projeto01\templates\frontend\pages\meus-dados.php on line 5
+[05-Dec-2022 19:15:58 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\projeto01\templates\frontend\pages\meus-dados.php on line 5
+[05-Dec-2022 19:52:53 America/Sao_Paulo] Erro de e-mail: SMTP Error: Could not authenticate.
+[05-Dec-2022 19:52:53 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class "PetShop\Core\Exception" not found in C:\xampp\htdocs\projeto01\src\Core\SendMail.php:55
+Stack trace:
+#0 C:\xampp\htdocs\projeto01\src\Controller\FaleConoscoController.php(56): Petshop\Core\SendMail::enviar('Camila Atendedo...', 'cs004259@cfjl.c...', 'Contato via Sit...', '    Ol\xC3\xA1 chegou...')
+#1 [internal function]: Petshop\Controller\FaleConoscoController->postFaleConosco()
+#2 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(482): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke('Petshop\\Control...', Array)
+#4 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#5 C:\xampp\htdocs\projeto01\src\Core\App.php(40): Bramus\Router\Router->run()
+#6 C:\xampp\htdocs\projeto01\public\index.php(5): Petshop\Core\App::start()
+#7 {main}
+  thrown in C:\xampp\htdocs\projeto01\src\Core\SendMail.php on line 55
+[05-Dec-2022 19:53:35 America/Sao_Paulo] Erro de e-mail: SMTP Error: Could not authenticate.
+[05-Dec-2022 19:53:35 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class "PetShop\Core\Exception" not found in C:\xampp\htdocs\projeto01\src\Core\SendMail.php:55
+Stack trace:
+#0 C:\xampp\htdocs\projeto01\src\Controller\FaleConoscoController.php(56): Petshop\Core\SendMail::enviar('Camila Atendedo...', 'cs004259@cfjl.c...', 'Contato via Sit...', '    Ol\xC3\xA1 chegou...')
+#1 [internal function]: Petshop\Controller\FaleConoscoController->postFaleConosco()
+#2 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(482): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke('Petshop\\Control...', Array)
+#4 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#5 C:\xampp\htdocs\projeto01\src\Core\App.php(40): Bramus\Router\Router->run()
+#6 C:\xampp\htdocs\projeto01\public\index.php(5): Petshop\Core\App::start()
+#7 {main}
+  thrown in C:\xampp\htdocs\projeto01\src\Core\SendMail.php on line 55
+[05-Dec-2022 19:54:11 America/Sao_Paulo] Erro de e-mail: SMTP Error: Could not authenticate.
+[05-Dec-2022 19:54:11 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class "PetShop\Core\Exception" not found in C:\xampp\htdocs\projeto01\src\Core\SendMail.php:55
+Stack trace:
+#0 C:\xampp\htdocs\projeto01\src\Controller\FaleConoscoController.php(56): Petshop\Core\SendMail::enviar('Camila Atendedo...', 'cs004259@cfjl.c...', 'Contato via Sit...', '    Ol\xC3\xA1 chegou...')
+#1 [internal function]: Petshop\Controller\FaleConoscoController->postFaleConosco()
+#2 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(482): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke('Petshop\\Control...', Array)
+#4 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#5 C:\xampp\htdocs\projeto01\src\Core\App.php(40): Bramus\Router\Router->run()
+#6 C:\xampp\htdocs\projeto01\public\index.php(5): Petshop\Core\App::start()
+#7 {main}
+  thrown in C:\xampp\htdocs\projeto01\src\Core\SendMail.php on line 55
+[05-Dec-2022 19:54:48 America/Sao_Paulo] Erro de e-mail: SMTP Error: Could not authenticate.
+[05-Dec-2022 19:54:48 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class "PetShop\Core\Exception" not found in C:\xampp\htdocs\projeto01\src\Core\SendMail.php:55
+Stack trace:
+#0 C:\xampp\htdocs\projeto01\src\Controller\FaleConoscoController.php(56): Petshop\Core\SendMail::enviar('Camila Atendedo...', 'cs004259@cfjl.c...', 'Contato via Sit...', '    Ol\xC3\xA1 chegou...')
+#1 [internal function]: Petshop\Controller\FaleConoscoController->postFaleConosco()
+#2 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(482): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke('Petshop\\Control...', Array)
+#4 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#5 C:\xampp\htdocs\projeto01\src\Core\App.php(40): Bramus\Router\Router->run()
+#6 C:\xampp\htdocs\projeto01\public\index.php(5): Petshop\Core\App::start()
+#7 {main}
+  thrown in C:\xampp\htdocs\projeto01\src\Core\SendMail.php on line 55
+[05-Dec-2022 19:55:52 America/Sao_Paulo] Erro de e-mail: SMTP Error: Could not authenticate.
+[05-Dec-2022 19:55:52 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class "PetShop\Core\Exception" not found in C:\xampp\htdocs\projeto01\src\Core\SendMail.php:55
+Stack trace:
+#0 C:\xampp\htdocs\projeto01\src\Controller\FaleConoscoController.php(56): Petshop\Core\SendMail::enviar('Camila Atendedo...', 'cs004259@cfjl.c...', 'Contato via Sit...', '    Ol\xC3\xA1 chegou...')
+#1 [internal function]: Petshop\Controller\FaleConoscoController->postFaleConosco()
+#2 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(482): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke('Petshop\\Control...', Array)
+#4 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#5 C:\xampp\htdocs\projeto01\src\Core\App.php(40): Bramus\Router\Router->run()
+#6 C:\xampp\htdocs\projeto01\public\index.php(5): Petshop\Core\App::start()
+#7 {main}
+  thrown in C:\xampp\htdocs\projeto01\src\Core\SendMail.php on line 55
+[05-Dec-2022 19:55:58 America/Sao_Paulo] Erro de e-mail: SMTP Error: Could not authenticate.
+[05-Dec-2022 19:55:58 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class "PetShop\Core\Exception" not found in C:\xampp\htdocs\projeto01\src\Core\SendMail.php:55
+Stack trace:
+#0 C:\xampp\htdocs\projeto01\src\Controller\FaleConoscoController.php(56): Petshop\Core\SendMail::enviar('Camila Atendedo...', 'cs004259@cfjl.c...', 'Contato via Sit...', '    Ol\xC3\xA1 chegou...')
+#1 [internal function]: Petshop\Controller\FaleConoscoController->postFaleConosco()
+#2 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(482): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke('Petshop\\Control...', Array)
+#4 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#5 C:\xampp\htdocs\projeto01\src\Core\App.php(40): Bramus\Router\Router->run()
+#6 C:\xampp\htdocs\projeto01\public\index.php(5): Petshop\Core\App::start()
+#7 {main}
+  thrown in C:\xampp\htdocs\projeto01\src\Core\SendMail.php on line 55
+[05-Dec-2022 19:57:30 America/Sao_Paulo] Erro de e-mail: SMTP Error: Could not authenticate.
+[05-Dec-2022 19:57:30 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class "PetShop\Core\Exception" not found in C:\xampp\htdocs\projeto01\src\Core\SendMail.php:55
+Stack trace:
+#0 C:\xampp\htdocs\projeto01\src\Controller\FaleConoscoController.php(56): Petshop\Core\SendMail::enviar('Camila Atendedo...', 'cs004259@cfjl.c...', 'Contato via Sit...', '    Ol\xC3\xA1 chegou...')
+#1 [internal function]: Petshop\Controller\FaleConoscoController->postFaleConosco()
+#2 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(482): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke('Petshop\\Control...', Array)
+#4 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#5 C:\xampp\htdocs\projeto01\src\Core\App.php(40): Bramus\Router\Router->run()
+#6 C:\xampp\htdocs\projeto01\public\index.php(5): Petshop\Core\App::start()
+#7 {main}
+  thrown in C:\xampp\htdocs\projeto01\src\Core\SendMail.php on line 55
+[05-Dec-2022 19:58:06 America/Sao_Paulo] Erro de e-mail: SMTP Error: Could not authenticate.
+[05-Dec-2022 19:58:06 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class "PetShop\Core\Exception" not found in C:\xampp\htdocs\projeto01\src\Core\SendMail.php:55
+Stack trace:
+#0 C:\xampp\htdocs\projeto01\src\Controller\FaleConoscoController.php(56): Petshop\Core\SendMail::enviar('Camila Atendedo...', 'cs004259@cfjl.c...', 'Contato via Sit...', '    Ol\xC3\xA1 chegou...')
+#1 [internal function]: Petshop\Controller\FaleConoscoController->postFaleConosco()
+#2 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(482): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke('Petshop\\Control...', Array)
+#4 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#5 C:\xampp\htdocs\projeto01\src\Core\App.php(40): Bramus\Router\Router->run()
+#6 C:\xampp\htdocs\projeto01\public\index.php(5): Petshop\Core\App::start()
+#7 {main}
+  thrown in C:\xampp\htdocs\projeto01\src\Core\SendMail.php on line 55
+[05-Dec-2022 20:02:42 America/Sao_Paulo] Erro de e-mail: SMTP Error: Could not authenticate.
+[05-Dec-2022 20:02:42 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\projeto01\templates\frontend\common\top.php:23) in C:\xampp\htdocs\projeto01\resources\funcoes.php on line 48
