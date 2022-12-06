@@ -92,6 +92,7 @@ class Render
         if (empty($dados['titulo'])) {
             $dados['titulo'] = BACKEND_TITLE;
         } else {
+            $dados['tituloInterno'] =  $dados['titulo'];
             $dados['titulo'] = $dados['titulo'] . ' - ' . BACKEND_TITLE;
         }
 
