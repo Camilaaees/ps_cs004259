@@ -87,6 +87,8 @@ class Render
             throw new Exception("A página solicitada '{$pagina}' não foi localizada");
         }
 
+        $dados['nomesite'] = BACKEND_TITLE;
+        
         if (empty($dados['titulo'])) {
             $dados['titulo'] = BACKEND_TITLE;
         } else {
