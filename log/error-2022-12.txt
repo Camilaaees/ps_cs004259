@@ -153,3 +153,4 @@ Stack trace:
   thrown in C:\xampp\htdocs\projeto01\src\Core\SendMail.php on line 55
 [05-Dec-2022 20:02:42 America/Sao_Paulo] Erro de e-mail: SMTP Error: Could not authenticate.
 [05-Dec-2022 20:02:42 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\projeto01\templates\frontend\common\top.php:23) in C:\xampp\htdocs\projeto01\resources\funcoes.php on line 48
+[05-Dec-2022 20:36:58 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\projeto01\templates\frontend\common\top.php:23) in C:\xampp\htdocs\projeto01\resources\funcoes.php on line 48
