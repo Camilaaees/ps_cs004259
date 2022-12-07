@@ -154,3 +154,7 @@ Stack trace:
 [05-Dec-2022 20:02:42 America/Sao_Paulo] Erro de e-mail: SMTP Error: Could not authenticate.
 [05-Dec-2022 20:02:42 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\projeto01\templates\frontend\common\top.php:23) in C:\xampp\htdocs\projeto01\resources\funcoes.php on line 48
 [05-Dec-2022 20:36:58 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\projeto01\templates\frontend\common\top.php:23) in C:\xampp\htdocs\projeto01\resources\funcoes.php on line 48
+[06-Dec-2022 20:20:30 America/Sao_Paulo] PHP Warning:  Undefined variable $htmlColunas in C:\xampp\htdocs\projeto01\templates\blocks\tabela-admin.php on line 11
+[06-Dec-2022 20:20:30 America/Sao_Paulo] PHP Warning:  Undefined variable $htmlLinhas in C:\xampp\htdocs\projeto01\templates\blocks\tabela-admin.php on line 15
+[06-Dec-2022 20:24:27 America/Sao_Paulo] PHP Warning:  Undefined variable $htmlLinhas in C:\xampp\htdocs\projeto01\templates\blocks\tabela-admin.php on line 20
+[06-Dec-2022 20:26:01 America/Sao_Paulo] PHP Warning:  Undefined variable $htmlLinhas in C:\xampp\htdocs\projeto01\templates\blocks\tabela-admin.php on line 24
