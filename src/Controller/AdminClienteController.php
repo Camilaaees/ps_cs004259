@@ -9,7 +9,7 @@ class AdminClienteController
 {
     public function listar()
     {
-        //Alimentado dados para a página de listagem
+        //Alimentado dados para a página de listagem 
         $dadosListagem = [];
         $dadosListagem['objeto'] = new Cliente;
         $dadosListagem['colunas'] = [
