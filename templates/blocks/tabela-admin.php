@@ -39,18 +39,18 @@
             $class = $coluna['class']??'';
             $valorColuna = $row[$coluna['campo']];
 
-            $htmlLinhas .= "<th class='{$class}'>{$valorColuna}</th>";
+            $htmlLinhas .= "<td class='{$class}'>{$valorColuna}</td>";
         }
 
         //Criando o botão de EDITAR
         $valorChave = $row[$campoChave];
         $linkEdicao = "{$rotaAtual}/{$valorChave}";
         $htmlLinhas .= <<<HTML
-            <th class="text-center">
+            <td class="text-center">
                 <a href="{$linkEdicao}" class="text-danger" title="Editar Registro">
                     <i class="bi bi-pencil-square"></i>
                 </a>
-            </th>
+            </td>
         HTML;
 
         $htmlLinhas .= '</tr>';

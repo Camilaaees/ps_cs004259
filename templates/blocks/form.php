@@ -92,7 +92,15 @@
                 echo <<<HTML
                         <div class="{$f['class']}">
                             <label for="{$f['name']}" class="form-label">{$f['label']}{$f['txt_required']}</label>
-                            <textarea class="form-control" id="{$f['name']}" name="{$f['name']}" placeholder="{$f['placeholder']}" rows="{$rows}" cols="{$cols}" {$f['required']}">$postValue</textarea>
+                            <textarea class="form-control" id="{$f['name']}" name="{$f['name']}" placeholder="{$f['placeholder']}" rows="{$rows}" cols="{$cols}" {$f['required']}">{$postValue}</textarea>
+                        </div>
+                    HTML;
+                break;
+            case 'readonly':
+                echo <<<HTML
+                        <div class="{$f['class']}">
+                            <label class="form-label">{$f['label']}{$f['txt_required']}</label>
+                            <input type="text" readonly class="form-control-plaintext border-bottom bg-light ps-1" value="{$postValue}">
                         </div>
                     HTML;
                 break;

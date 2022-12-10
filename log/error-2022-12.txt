@@ -158,3 +158,46 @@ Stack trace:
 [06-Dec-2022 20:20:30 America/Sao_Paulo] PHP Warning:  Undefined variable $htmlLinhas in C:\xampp\htdocs\projeto01\templates\blocks\tabela-admin.php on line 15
 [06-Dec-2022 20:24:27 America/Sao_Paulo] PHP Warning:  Undefined variable $htmlLinhas in C:\xampp\htdocs\projeto01\templates\blocks\tabela-admin.php on line 20
 [06-Dec-2022 20:26:01 America/Sao_Paulo] PHP Warning:  Undefined variable $htmlLinhas in C:\xampp\htdocs\projeto01\templates\blocks\tabela-admin.php on line 24
+[09-Dec-2022 20:23:28 America/Sao_Paulo] PHP Fatal error:  Uncaught ArgumentCountError: 6 arguments are required, 5 given in C:\xampp\htdocs\projeto01\src\Core\DB.php:88
+Stack trace:
+#0 C:\xampp\htdocs\projeto01\src\Core\DB.php(88): sprintf('ERRO PDO: %s, n...', 'SQLSTATE[42000]...', 70, 'SELECT * FROM c...', 'array (\n  'idcl...')
+#1 C:\xampp\htdocs\projeto01\src\Core\DB.php(54): Petshop\Core\DB::query('SELECT * FROM c...', Array)
+#2 C:\xampp\htdocs\projeto01\src\Core\DAO.php(171): Petshop\Core\DB::select('SELECT * FROM c...', Array)
+#3 C:\xampp\htdocs\projeto01\src\Controller\AdminClienteController.php(37): Petshop\Core\DAO->find(Array)
+#4 [internal function]: Petshop\Controller\AdminClienteController->form('23')
+#5 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(482): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke('Petshop\\Control...', Array)
+#7 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#8 C:\xampp\htdocs\projeto01\src\Core\App.php(40): Bramus\Router\Router->run()
+#9 C:\xampp\htdocs\projeto01\public\index.php(5): Petshop\Core\App::start()
+#10 {main}
+  thrown in C:\xampp\htdocs\projeto01\src\Core\DB.php on line 88
+[09-Dec-2022 20:23:43 America/Sao_Paulo] PHP Fatal error:  Uncaught ArgumentCountError: 6 arguments are required, 5 given in C:\xampp\htdocs\projeto01\src\Core\DB.php:88
+Stack trace:
+#0 C:\xampp\htdocs\projeto01\src\Core\DB.php(88): sprintf('ERRO PDO: %s, n...', 'SQLSTATE[42000]...', 70, 'SELECT * FROM c...', 'array (\n  'idcl...')
+#1 C:\xampp\htdocs\projeto01\src\Core\DB.php(54): Petshop\Core\DB::query('SELECT * FROM c...', Array)
+#2 C:\xampp\htdocs\projeto01\src\Core\DAO.php(171): Petshop\Core\DB::select('SELECT * FROM c...', Array)
+#3 C:\xampp\htdocs\projeto01\src\Controller\AdminClienteController.php(37): Petshop\Core\DAO->find(Array)
+#4 [internal function]: Petshop\Controller\AdminClienteController->form('534')
+#5 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(482): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke('Petshop\\Control...', Array)
+#7 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#8 C:\xampp\htdocs\projeto01\src\Core\App.php(40): Bramus\Router\Router->run()
+#9 C:\xampp\htdocs\projeto01\public\index.php(5): Petshop\Core\App::start()
+#10 {main}
+  thrown in C:\xampp\htdocs\projeto01\src\Core\DB.php on line 88
+[09-Dec-2022 20:23:56 America/Sao_Paulo] PHP Fatal error:  Uncaught ArgumentCountError: 6 arguments are required, 5 given in C:\xampp\htdocs\projeto01\src\Core\DB.php:88
+Stack trace:
+#0 C:\xampp\htdocs\projeto01\src\Core\DB.php(88): sprintf('ERRO PDO: %s, n...', 'SQLSTATE[42000]...', 70, 'SELECT * FROM c...', 'array (\n  'idcl...')
+#1 C:\xampp\htdocs\projeto01\src\Core\DB.php(54): Petshop\Core\DB::query('SELECT * FROM c...', Array)
+#2 C:\xampp\htdocs\projeto01\src\Core\DAO.php(171): Petshop\Core\DB::select('SELECT * FROM c...', Array)
+#3 C:\xampp\htdocs\projeto01\src\Controller\AdminClienteController.php(37): Petshop\Core\DAO->find(Array)
+#4 [internal function]: Petshop\Controller\AdminClienteController->form('534')
+#5 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(482): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke('Petshop\\Control...', Array)
+#7 C:\xampp\htdocs\projeto01\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#8 C:\xampp\htdocs\projeto01\src\Core\App.php(40): Bramus\Router\Router->run()
+#9 C:\xampp\htdocs\projeto01\public\index.php(5): Petshop\Core\App::start()
+#10 {main}
+  thrown in C:\xampp\htdocs\projeto01\src\Core\DB.php on line 88
+[09-Dec-2022 22:02:29 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in C:\xampp\htdocs\projeto01\src\Controller\AdminClienteController.php on line 73
