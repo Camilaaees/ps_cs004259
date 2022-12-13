@@ -114,7 +114,7 @@ class Cliente extends DAO
     }
     public function setSenha(string $senha): self
     {
-        if ($this->$senha && !$senha) {
+        if ($this->senha && !$senha) {
             return $this;
         }
 
