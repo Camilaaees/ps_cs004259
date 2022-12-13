@@ -44,7 +44,7 @@ class AdminClienteController
         }
 
         //Cria e exibe o formulário
-        $dados = [];;
+        $dados = [];
         $dados['titulo'] = 'Clientes - Manutenção';
         $dados['formulario'] = $this->renderizaFormulario(empty($_POST));
 

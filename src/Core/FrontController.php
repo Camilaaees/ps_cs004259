@@ -22,6 +22,8 @@ abstract class FrontController
             $dados[0]['cliente'] = $_SESSION['cliente'];
         }
 
+        $dados[0]['empresas'] = (new Empresa)->find();
+
         return Render::block('topo', $dados[0]);
     }
 

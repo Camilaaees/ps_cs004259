@@ -57,6 +57,7 @@ class App
         self::$router->get('/meus-dados', 'Petshop\Controller\MeusDadosController@meusDados');
         self::$router->get('/fale-conosco', 'Petshop\Controller\FaleConoscoController@faleConosco');
         self::$router->post('/fale-conosco', 'Petshop\Controller\FaleConoscoController@postFaleConosco');
+        self::$router->get('/nossas-lojas', 'Petshop\Controller\NossasLojasController@nossasLojas');
     }
 
     /**
@@ -72,6 +73,9 @@ class App
             self::$router->get('/clientes', 'Petshop\Controller\AdminClienteController@listar');
             self::$router->get('/clientes/{valor}', 'Petshop\Controller\AdminClienteController@form');
             self::$router->post('/clientes/{valor}', 'Petshop\Controller\AdminClienteController@PostForm');
+            self::$router->get('/empresas', 'Petshop\Controller\AdminEmpresaController@listar');
+            self::$router->get('/empresas/{valor}', 'Petshop\Controller\AdminEmpresaController@form');
+            self::$router->post('/empresas/{valor}', 'Petshop\Controller\AdminEmpresaController@PostForm');
         });
     }
 
