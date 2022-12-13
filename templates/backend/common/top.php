@@ -60,13 +60,25 @@
 
                         <div class="sb-sidenav-menu-heading">Menu</div>
 
-                        <a class="nav-link" href="/admin">
+                        <a class="nav-link" href="/admin/dashboard">
                             <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                             Dashboard
+                        </a>
+                        <a class="nav-link" href="/admin/usuarios">
+                            <div class="sb-nav-link-icon"><i class="bi bi-person-fill-lock"></i></div>
+                            Usuários
                         </a>
                         <a class="nav-link" href="/admin/clientes">
                             <div class="sb-nav-link-icon"><i class="bi bi-people-fill"></i></div>
                             Clientes
+                        </a>
+                        <a class="nav-link" href="/admin/dicas">
+                            <div class="sb-nav-link-icon"><i class="bi bi-lightbulb-fill"></i></div>
+                            Dicas
+                        </a>
+                        <a class="nav-link" href="/admin/marcas">
+                            <div class="sb-nav-link-icon"><i class="bi bi-bookmarks-fill"></i></div>
+                            Marcas
                         </a>
                         <a class="nav-link" href="/admin/categorias">
                             <div class="sb-nav-link-icon"><i class="bi bi-diagram-2-fill"></i></div>
