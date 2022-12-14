@@ -68,7 +68,16 @@ class App
      */
     private static function registraRotasDoBackEnd()
     {
+        self::$router->before('GET|POST', '/admin/.*', function(){
+            if (empty($_SESSION['usuario'])) {
+                redireciona('/admin', 'danger', 'Faça seu login para continuar');
+            }
+        });
+
         self::$router->mount('/admin', function() {
+            self::$router->get('/', 'Petshop\Controller\AdminLoginController@login');
+            self::$router->post('/', 'Petshop\Controller\AdminLoginController@postLogin');
+
             self::$router->get('/dashboard', 'Petshop\Controller\AdminDashboardController@index');
 
             self::$router->get('/clientes', 'Petshop\Controller\AdminClienteController@listar');
