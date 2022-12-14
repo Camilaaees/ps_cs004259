@@ -10,6 +10,7 @@ class AdminDashboardController
     {
         $dados = [];
         $dados['titulo'] = 'Dashboard';
+        $dados['usuario'] = $_SESSION['usuario'];
 
         Render::back('dashboard', $dados);
     }

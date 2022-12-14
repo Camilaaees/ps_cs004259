@@ -26,6 +26,7 @@ class AdminClienteController
         $dados = [];
         $dados['titulo'] = 'Clientes';
         $dados['tabela'] = $htmlTabela;
+        $dados['usuario'] = $_SESSION['usuario'];
 
         Render::back('clientes', $dados);
     }

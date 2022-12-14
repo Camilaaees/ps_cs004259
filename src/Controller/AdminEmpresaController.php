@@ -24,6 +24,7 @@ class AdminEmpresaController
 
         $dados = [];
         $dados['titulo'] = 'Empresas';
+        $dados['usuario'] = $_SESSION['usuario'];
         $dados['tabela'] = $htmlTabela;
 
         Render::back('empresas', $dados);
