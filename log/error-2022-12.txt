@@ -201,3 +201,30 @@ Stack trace:
 #10 {main}
   thrown in C:\xampp\htdocs\projeto01\src\Core\DB.php on line 88
 [09-Dec-2022 22:02:29 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in C:\xampp\htdocs\projeto01\src\Controller\AdminClienteController.php on line 73
+[20-Dec-2022 09:29:42 America/Sao_Paulo] Bloco template não localizado em: C:\xampp\htdocs\ps_cs004259\config/../blocks/topo.php
+[20-Dec-2022 09:29:42 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: O bloco solicitada 'topo' não foi localizado in C:\xampp\htdocs\ps_cs004259\src\View\Render.php:55
+Stack trace:
+#0 C:\xampp\htdocs\ps_cs004259\src\Core\FrontController.php(27): Petshop\View\Render::block('topo', Array)
+#1 C:\xampp\htdocs\ps_cs004259\src\Controller\HomeController.php(15): Petshop\Core\FrontController->carregaHTMLTopo()
+#2 [internal function]: Petshop\Controller\HomeController->index()
+#3 C:\xampp\htdocs\ps_cs004259\vendor\bramus\router\src\Bramus\Router\Router.php(482): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\ps_cs004259\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke('Petshop\\Control...', Array)
+#5 C:\xampp\htdocs\ps_cs004259\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#6 C:\xampp\htdocs\ps_cs004259\src\Core\App.php(40): Bramus\Router\Router->run()
+#7 C:\xampp\htdocs\ps_cs004259\public\index.php(5): Petshop\Core\App::start()
+#8 {main}
+  thrown in C:\xampp\htdocs\ps_cs004259\src\View\Render.php on line 55
+[20-Dec-2022 09:29:42 America/Sao_Paulo] Bloco template não localizado em: C:\xampp\htdocs\ps_cs004259\config/../blocks/topo.php
+[20-Dec-2022 09:29:42 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: O bloco solicitada 'topo' não foi localizado in C:\xampp\htdocs\ps_cs004259\src\View\Render.php:55
+Stack trace:
+#0 C:\xampp\htdocs\ps_cs004259\src\Core\FrontController.php(27): Petshop\View\Render::block('topo', Array)
+#1 C:\xampp\htdocs\ps_cs004259\src\Controller\ErrorController.php(14): Petshop\Core\FrontController->carregaHTMLTopo()
+#2 C:\xampp\htdocs\ps_cs004259\src\Core\App.php(107): Petshop\Controller\ErrorController->erro404()
+#3 [internal function]: Petshop\Core\App::Petshop\Core\{closure}()
+#4 C:\xampp\htdocs\ps_cs004259\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp\htdocs\ps_cs004259\vendor\bramus\router\src\Bramus\Router\Router.php(372): Bramus\Router\Router->invoke(Object(Closure))
+#6 C:\xampp\htdocs\ps_cs004259\vendor\bramus\router\src\Bramus\Router\Router.php(292): Bramus\Router\Router->trigger404(Array)
+#7 C:\xampp\htdocs\ps_cs004259\src\Core\App.php(40): Bramus\Router\Router->run()
+#8 C:\xampp\htdocs\ps_cs004259\public\index.php(5): Petshop\Core\App::start()
+#9 {main}
+  thrown in C:\xampp\htdocs\ps_cs004259\src\View\Render.php on line 55
