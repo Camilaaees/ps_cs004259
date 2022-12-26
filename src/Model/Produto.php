@@ -142,7 +142,9 @@ class Produto extends DAO
 
     public function setLargura($largura): self
     {
-        if(!is_numeric($largura) || $largura<0) {
+        if ($largura=='') {
+            $this->largura = null;
+        } else if(!is_numeric($largura) || $largura<0) {
             throw new Exception('Largura inválida para o produto');
         }
 
@@ -157,7 +159,9 @@ class Produto extends DAO
 
     public function setAltura($altura): self
     {
-        if(!is_numeric($altura) || $altura<0) {
+        if ($altura=='') {
+            $this->altura = null;
+        } else if(!is_numeric($altura) || $altura<0) {
             throw new Exception('Altura inválida para o produto');
         }
 
@@ -172,7 +176,9 @@ class Produto extends DAO
 
     public function setProfundidade($profundidade): self
     {
-        if(!is_numeric($profundidade) || $profundidade<0) {
+        if ($profundidade=='') {
+            $this->profundidade = null;
+        } else if(!is_numeric($profundidade) || $profundidade<0) {
             throw new Exception('Profundidade inválida para o produto');
         }
 
@@ -187,7 +193,9 @@ class Produto extends DAO
 
     public function setPeso($peso): self
     {
-        if(!is_numeric($peso) || $peso<0) {
+        if ($peso=='') {
+            $this->peso = null;
+        } else if(!is_numeric($peso) || $peso<0) {
             throw new Exception('Peso inválido para o produto');
         }
 
@@ -202,8 +210,10 @@ class Produto extends DAO
 
     public function setDescricao($descricao): self
     {
-        $nome = trim($descricao);
-        if (!$descricao) {
+        $descricao = trim($descricao);
+        if ($descricao=='') {
+            $this->descricao = null;
+        } else if (!$descricao) {
             return $this;
         }
 
@@ -222,8 +232,10 @@ class Produto extends DAO
 
     public function setEspecificacoes($especificacoes): self
     {
-        $nome = trim($especificacoes);
-        if (!$especificacoes) {
+        $especificacoes = trim($especificacoes);
+        if ($especificacoes=='') {
+            $this->especificacoes = null;
+        } else if (!$especificacoes) {
             return $this;
         }
 
