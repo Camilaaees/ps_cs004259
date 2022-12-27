@@ -1,1 +1,2 @@
-abriu o dashboard
+<?=retornaHTMLAlertMensagemSessao()?>
+<br>abriu o dashboard
