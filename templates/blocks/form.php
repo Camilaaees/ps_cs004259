@@ -104,6 +104,15 @@
                         </div>
                     HTML;
                 break;
+            case 'file':
+                $f['accept'] = empty($f['accept']) ? '' : "accept='{$f['accept']}'";
+                echo <<<HTML
+                        <div class="{$f['class']}">
+                            <label for="{$f['name']}" class="form-label">{$f['label']}{$f['txt_required']}</label>
+                            <input type="{$f['type']}" class="form-control" id="{$f['name']}" name="{$f['name']}"  {$f['required']} {$f['accept']}>
+                        </div>
+                    HTML;
+                break;        
         }
     }
 ?>
