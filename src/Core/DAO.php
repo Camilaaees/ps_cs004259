@@ -265,4 +265,35 @@ class DAO
 
         return true;
     }
+
+    /**
+     * Retorna uma lista com todos os arquivos cadastrados para o registro corrente
+     * 
+     * @return array
+     */
+    public function getFiles() : array
+    {
+        $nomeDaTabela = $this->getTableName();
+        $nomeCampoChave = $this->getPkName();
+        $valorCampoChave = $this->$nomeCampoChave;
+
+        $sql = 'SELECT *
+        FROM arquivos
+        WHERE tabela = ?
+        AND tabelaid = ?
+        ORDER BY created_at DESC';
+
+        $parametros = ["{$nomeDaTabela}.{$nomeCampoChave}", $valorCampoChave];
+        
+        $files = DB::select($sql, $parametros);
+
+        foreach($files as &$file) {
+            $nomeArquivo = $file['idarquivo'] . '.' . pathinfo($file['nome'], PATHINFO_EXTENSION);
+            $file['path'] = PATH_PROJETO . 'public/assets/img/uploads/' . $nomeArquivo;
+            $file['url'] = URL . '/assets/img/uploads/' . $nomeArquivo;
+        }
+
+        return $files;
+        
+    }
 }
