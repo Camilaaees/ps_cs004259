@@ -88,6 +88,26 @@ class App
             self::$router->get('/usuarios/{valor}', 'Petshop\Controller\AdminUsuarioController@form');
             self::$router->post('/usuarios/{valor}', 'Petshop\Controller\AdminUsuarioController@PostForm');
 
+            self::$router->get('/dicas', 'Petshop\Controller\AdminDicaController@listar');
+            self::$router->get('/dicas/{valor}', 'Petshop\Controller\AdminDicaController@form');
+            self::$router->post('/dicas/{valor}', 'Petshop\Controller\AdminDicaController@PostForm');
+
+            self::$router->get('/marcas', 'Petshop\Controller\AdminMarcaController@listar');
+            self::$router->get('/marcas/{valor}', 'Petshop\Controller\AdminMarcaController@form');
+            self::$router->post('/marcas/{valor}', 'Petshop\Controller\AdminMarcaController@PostForm');
+
+            self::$router->get('/categorias', 'Petshop\Controller\AdminCategoriaController@listar');
+            self::$router->get('/categorias/{valor}', 'Petshop\Controller\AdminCategoriaController@form');
+            self::$router->post('/categorias/{valor}', 'Petshop\Controller\AdminCategoriaController@PostForm');
+
+            self::$router->get('/produtos', 'Petshop\Controller\AdminProdutoController@listar');
+            self::$router->get('/produtos/{valor}', 'Petshop\Controller\AdminProdutoController@form');
+            self::$router->post('/produtos/{valor}', 'Petshop\Controller\AdminProdutoController@PostForm');
+
+            self::$router->get('/imagens/(\w+)/(\d+)', 'Petshop\Controller\AdminImagemController@listar');
+            self::$router->get('/imagens/(\w+)/(\d+)/(\w+)', 'Petshop\Controller\AdminImagemController@form');
+            self::$router->post('/imagens/(\w+)/(\d+)/(\w+)', 'Petshop\Controller\AdminImagemController@PostForm');
+
             self::$router->get('/empresas', 'Petshop\Controller\AdminEmpresaController@listar');
             self::$router->get('/empresas/{valor}', 'Petshop\Controller\AdminEmpresaController@form');
             self::$router->post('/empresas/{valor}', 'Petshop\Controller\AdminEmpresaController@PostForm');
