@@ -1,30 +1,112 @@
 <?php
 
-//arquivos
+namespace Petshop\Model;
 
-class Arquivo
+use Petshop\Core\Attribute\Campo;
+use Petshop\Core\Attribute\Entidade;
+use Petshop\Core\DAO;
+use Petshop\Core\Exception;
+
+#[Entidade(name: 'arquivos')]
+
+class Arquivo extends DAO
 {
-    // Cód. Arquivo, pk, nn, auto
-    protected $idarquivo;
+    #[Campo(label:'Cód. Arquivo', nn:true, pk:true, auto:true)]
+    protected $idArquivo;
 
-    // Nome do arquivo, nn, order:true
+    #[Campo(label:'Nome', nn:true, order:true)]
     protected $nome;
 
-    // Tipo, nn
+    #[Campo(label:'Tipo', nn:true)]
     protected $tipo;
 
-    // Descrição
+    #[Campo(label:'Descrição')]
     protected $descricao;
 
-    // Tabela
+    #[Campo(label:'Tabela')]
     protected $tabela;
 
-    // ID Tabela
-    protected $tabelaid;
+    #[Campo(label:'Cód. Tabela')]
+    protected $tabelaId;
 
-    // Dt. Criação, nn, auto
+    #[Campo(label:'Dt. Criação', nn:true, auto:true)]
     protected $created_at;
 
-    // Dt. Alteração, nn, auto
+    #[Campo(label:'Dt. Alteração', nn:true, auto:true)]
     protected $updated_at;
+
+    public function getIdarquivo()
+    {
+        return $this->idArquivo;
+    }
+
+    public function getNome()
+    {
+        return $this->nome;
+    }
+    public function setNome($nome): self
+    {
+        $nome = trim($nome);
+        if (!$nome) {
+            throw new Exception('Nome inválido');
+        }
+        $this->nome = $nome;
+        return $this;
+    }
+
+    public function getTipo()
+    {
+        return $this->tipo;
+    }
+    public function setTipo($tipo): self
+    {
+        $this->tipo = $tipo;
+        return $this;
+    }
+
+    public function getDescricao()
+    {
+        return $this->descricao;
+    }
+    public function setDescricao($descricao): self
+    {
+        $descricao = trim($descricao);
+        if ($descricao=='') {
+            $this->descricao = null;
+        } else if (!$descricao) {
+            throw new Exception('Descrição inválida');
+        }
+        $this->descricao = $descricao;
+        return $this;
+    }
+
+    public function getTabela()
+    {
+        return $this->tabela;
+    }
+    public function setTabela($tabela): self
+    {
+        $this->tabela = $tabela;
+        return $this;
+    }
+
+    public function getTabelaid()
+    {
+        return $this->tabelaId;
+    }
+    public function settabelaId($tabelaId): self
+    {
+        $this->tabelaId = $tabelaId;
+        return $this;
+    }
+
+    public function getCreated_At()
+    {
+        return $this->created_at;
+    }
+
+    public function getUpdated_At()
+    {
+        return $this->updated_at;
+    }
 }
