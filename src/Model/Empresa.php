@@ -13,9 +13,9 @@ use Respect\Validation\Validator as v;
 class Empresa extends DAO
 {
     #[Campo(label:'Cód. Empresa', nn:true, pk:true, auto:true)]
-    protected $idEmpresa; 
+    protected $idEmpresa;
 
-    #[Campo(label:'Nome Fantasia', nn:true)]
+    #[Campo(label:'Nome Fantasia', nn:true, order:true)]
     protected $nomeFantasia;
 
     #[Campo(label:'Razão Social', nn:true)]
@@ -39,13 +39,13 @@ class Empresa extends DAO
     #[Campo(label:'Bairro')]
     protected $bairro;
 
-    #[Campo(label:'Numero')]
+    #[Campo(label:'Número')]
     protected $numero;
 
     #[Campo(label:'Telefone 01', nn:true)]
     protected $telefone1;
 
-    #[Campo(label:'Telefone 01')]
+    #[Campo(label:'Telefone 02')]
     protected $telefone2;
 
     #[Campo(label:'Site')]
@@ -72,7 +72,6 @@ class Empresa extends DAO
     {
         return $this->nomeFantasia;
     }
-
     public function setNomeFantasia(string $nomeFantasia): self
     {
         $nomeFantasia = trim($nomeFantasia);
@@ -80,6 +79,7 @@ class Empresa extends DAO
         if (!$tamanhoValido) {
             throw new Exception('O tamanho do Nome Fantasia é inválido');
         }
+
         $this->nomeFantasia = $nomeFantasia;
         return $this;
     }
@@ -93,7 +93,7 @@ class Empresa extends DAO
         $razaoSocial = trim($razaoSocial);
         $tamanhoValido = v::stringType()->length(1, 255)->validate($razaoSocial);
         if (!$tamanhoValido) {
-            throw new Exception('O tamanho do valor no campo Razão Social é inválido');
+            throw new Exception('O tamanho do valor do campo Razão Social é inválido');
         }
         $this->razaoSocial = $razaoSocial;
         return $this;
@@ -106,9 +106,10 @@ class Empresa extends DAO
     public function setTipo(string $tipo): self
     {
         $tipoValido = in_array($tipo, ['Matriz', 'Filial']);
-        if (!$tipoValido){
+        if (!$tipoValido) {
             throw new Exception('O tipo deve ser Matriz ou Filial apenas');
         }
+
         $this->tipo = $tipo;
         return $this;
     }
@@ -123,6 +124,7 @@ class Empresa extends DAO
         if (!$cepValido) {
             throw new Exception('O campo CEP tem valor inválido');
         }
+
         $this->cep = $cep;
         return $this;
     }
@@ -136,8 +138,9 @@ class Empresa extends DAO
         $cidade = trim($cidade);
         $tamanhoValido = v::stringType()->length(2, 35)->validate($cidade);
         if (!$tamanhoValido) {
-            throw new Exception('O tamanho do valor no campo Cidade é inválido');
+            throw new Exception('O tamanho do valor do campo Cidade é inválido');
         }
+
         $this->cidade = $cidade;
         return $this;
     }
@@ -151,8 +154,9 @@ class Empresa extends DAO
         $estado = trim($estado);
         $tamanhoValido = v::stringType()->length(4, 20)->validate($estado);
         if (!$tamanhoValido) {
-            throw new Exception('O tamanho do valor no campo Estado é inválido');
+            throw new Exception('O tamanho do valor do campo Estado é inválido');
         }
+
         $this->estado = $estado;
         return $this;
     }
@@ -163,6 +167,11 @@ class Empresa extends DAO
     }
     public function setRua(string $rua): self
     {
+        if ($rua == '') {
+            $this->rua = null;
+            return $this;
+        } 
+
         $this->rua = $rua;
         return $this;
     }
@@ -173,6 +182,11 @@ class Empresa extends DAO
     }
     public function setBairro(string $bairro): self
     {
+        if ($bairro == '') {
+            $this->bairro = null;
+            return $this;
+        } 
+
         $this->bairro = $bairro;
         return $this;
     }
@@ -183,6 +197,11 @@ class Empresa extends DAO
     }
     public function setNumero(string $numero): self
     {
+        if ($numero == '') {
+            $this->numero = null;
+            return $this;
+        } 
+
         $this->numero = $numero;
         return $this;
     }
@@ -191,13 +210,14 @@ class Empresa extends DAO
     {
         return $this->telefone1;
     }
-    public function setTelefone1(string $telefone1): self
+    public function setTelefone1($telefone1): self
     {
         $telefone1 = trim($telefone1);
-        $tipoValido = v::phone()->validate($telefone1);
-        if (!$tipoValido) {
+        $tamanhoValido = v::phone()->validate($telefone1);
+        if (!$tamanhoValido) {
             throw new Exception('O campo Telefone 01 tem valor inválido');
         }
+
         $this->telefone1 = $telefone1;
         return $this;
     }
@@ -206,13 +226,20 @@ class Empresa extends DAO
     {
         return $this->telefone2;
     }
-    public function setTelefone2(string $telefone2): self
+    public function setTelefone2($telefone2): self
     {
         $telefone2 = trim($telefone2);
-        $tipoValido = v::phone()->validate($telefone2);
-        if (!$tipoValido) {
+        
+        if ($telefone2 == '') {
+            $this->telefone2 = null;
+            return $this;
+        } 
+        
+        $tamanhoValido = v::phone()->validate($telefone2);
+        if (!$tamanhoValido) {
             throw new Exception('O campo Telefone 02 tem valor inválido');
         }
+
         $this->telefone2 = $telefone2;
         return $this;
     }
@@ -224,10 +251,17 @@ class Empresa extends DAO
     public function setSite(string $site): self
     {
         $site = trim($site);
-        $tipoValido = v::url()->validate($site);
-        if (!$tipoValido) {
+
+        if ($site == '') {
+            $this->site = null;
+            return $this;
+        } 
+
+        $tamanhoValido = v::url()->validate($site);
+        if (!$tamanhoValido) {
             throw new Exception('O campo Site tem valor inválido');
         }
+
         $this->site = $site;
         return $this;
     }
@@ -239,10 +273,11 @@ class Empresa extends DAO
     public function setEmail(string $email): self
     {
         $email = trim($email);
-        $tipoValido = v::email()->validate($email);
-        if (!$tipoValido) {
+        $tamanhoValido = v::email()->validate($email);
+        if (!$tamanhoValido) {
             throw new Exception('O campo E-mail tem valor inválido');
         }
+
         $this->email = $email;
         return $this;
     }
@@ -251,25 +286,14 @@ class Empresa extends DAO
     {
         return $this->cnpj;
     }
-    public function setCnpj(string $cnpj): self
+    public function setCnpj($cnpj): self
     {
-        $tipoValido = v::cnpj()->validate($cnpj);
-        if (!$tipoValido) {
+        $tamanhoValido = v::cnpj()->validate($cnpj);
+        if (!$tamanhoValido) {
             throw new Exception('O campo CNPJ tem valor inválido');
         }
-        $this->cnpj = $cnpj;
 
+        $this->cnpj = $cnpj;
         return $this;
     }
-
-    public function getCreated_At()
-    {
-        return $this->created_at;
-    }
-
-    public function getUpdated_At()
-    {
-        return $this->updated_at;
-    }
-
 }

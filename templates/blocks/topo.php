@@ -89,8 +89,16 @@ if (empty($cliente)) {
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
     <div class="offcanvas-body">
-        <p>Lista das categorias ex1</p>
-        <p>Lista das categorias ex2</p>
-        <p>Lista das categorias ex3</p>
+        <div class="list-group list-group-flush">
+            <?php
+                foreach($categorias??[] as $c) {
+                    echo <<<HTML
+                        <a href="/categorias/{$c['idcategoria']}" class="list-group-item list-group-item-action">
+                            {$c['nome']}
+                        </a>
+                    HTML;
+                }
+            ?>
+        </div>
     </div>
 </div>

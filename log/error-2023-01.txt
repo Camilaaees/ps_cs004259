@@ -1,0 +1,16 @@
+[02-Jan-2023 07:20:34 America/Sao_Paulo] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[02-Jan-2023 07:20:34 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[02-Jan-2023 07:24:33 America/Sao_Paulo] PHP Warning:  Undefined variable $empresa in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\nossas-lojas.php on line 4
+[02-Jan-2023 07:24:33 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\nossas-lojas.php on line 4
+[02-Jan-2023 07:24:33 America/Sao_Paulo] PHP Warning:  Undefined variable $empresa in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\nossas-lojas.php on line 7
+[02-Jan-2023 07:24:33 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\nossas-lojas.php on line 7
+[02-Jan-2023 07:26:02 America/Sao_Paulo] PHP Warning:  Undefined variable $empresa in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\nossas-lojas.php on line 4
+[02-Jan-2023 07:26:02 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\nossas-lojas.php on line 4
+[02-Jan-2023 07:26:02 America/Sao_Paulo] PHP Warning:  Undefined variable $empresa in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\nossas-lojas.php on line 7
+[02-Jan-2023 07:26:02 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\nossas-lojas.php on line 7
+[02-Jan-2023 07:28:15 America/Sao_Paulo] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\nossas-lojas.php on line 26
+[02-Jan-2023 07:28:15 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\nossas-lojas.php on line 26
+[02-Jan-2023 07:28:15 America/Sao_Paulo] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\nossas-lojas.php on line 26
+[02-Jan-2023 07:28:15 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\nossas-lojas.php on line 26
+[02-Jan-2023 07:28:15 America/Sao_Paulo] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\nossas-lojas.php on line 26
+[02-Jan-2023 07:28:15 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\nossas-lojas.php on line 26

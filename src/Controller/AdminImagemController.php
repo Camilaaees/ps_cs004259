@@ -36,7 +36,7 @@ class AdminImagemController
 
         // alimentando dados para a página de clientes
         $dados = [];
-        $dados['titulo'] = 'Imagens';
+        $dados['titulo'] = 'Imagens - Listagem';
         $campoOrdenacao = $objetoComFiguras->getOrderByField();
         $dados['registroAlvo'] = $model . ': <u>' . $objetoComFiguras->$campoOrdenacao . '</u>';
         $dados['tabela'] = $htmlTabela;
@@ -64,12 +64,11 @@ class AdminImagemController
             $_POST = $resultado[0];
         }
 
-        //Cria e exibe o formulário
         $dados = [];
         $dados['titulo'] = 'Imagens - Manutenção';
         $dados['formulario'] = $this->renderizaFormulario(empty($_POST));
         $campoOrdenacao = $objetoComFiguras->getOrderByField();
-        $dados['registroAlvo'] = $model . ': <u class="mb-2 d-inline-block">' . $objetoComFiguras->$campoOrdenacao . '</u>';
+        $dados['registroAlvo'] = $model . ': <u>' . $objetoComFiguras->$campoOrdenacao . '</u>';
         
         Render::back('imagens', $dados);
     }

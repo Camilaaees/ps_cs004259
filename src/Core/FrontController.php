@@ -2,6 +2,7 @@
 
 namespace Petshop\Core;
 
+use Petshop\Model\Categoria;
 use Petshop\Model\Empresa;
 use Petshop\View\Render;
 
@@ -21,6 +22,8 @@ abstract class FrontController
         if ( !empty($_SESSION['cliente'])) {
             $dados[0]['cliente'] = $_SESSION['cliente'];
         }
+
+        $dados[0]['categorias'] = (new Categoria)->find();
 
         $dados[0]['empresas'] = (new Empresa)->find();
 

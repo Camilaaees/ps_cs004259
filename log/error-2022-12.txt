@@ -504,3 +504,53 @@ Stack trace:
 [26-Dec-2022 10:31:19 America/Sao_Paulo] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\xampp\htdocs\ps_cs004259\src\Controller\AdminProdutoController.php on line 48
 [26-Dec-2022 10:31:19 America/Sao_Paulo] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\xampp\htdocs\ps_cs004259\src\Controller\AdminProdutoController.php on line 49
 [26-Dec-2022 10:31:19 America/Sao_Paulo] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\xampp\htdocs\ps_cs004259\src\Controller\AdminProdutoController.php on line 50
+[28-Dec-2022 00:20:24 America/Sao_Paulo] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[28-Dec-2022 00:20:24 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[28-Dec-2022 00:21:32 America/Sao_Paulo] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[28-Dec-2022 00:21:32 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[28-Dec-2022 00:21:36 America/Sao_Paulo] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[28-Dec-2022 00:21:36 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[28-Dec-2022 00:21:39 America/Sao_Paulo] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[28-Dec-2022 00:21:39 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[28-Dec-2022 00:21:42 America/Sao_Paulo] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[28-Dec-2022 00:21:42 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[28-Dec-2022 00:21:45 America/Sao_Paulo] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[28-Dec-2022 00:21:45 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[28-Dec-2022 00:21:49 America/Sao_Paulo] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[28-Dec-2022 00:21:49 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[28-Dec-2022 00:21:53 America/Sao_Paulo] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[28-Dec-2022 00:21:53 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[28-Dec-2022 00:22:09 America/Sao_Paulo] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[28-Dec-2022 00:22:09 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[28-Dec-2022 00:22:14 America/Sao_Paulo] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[28-Dec-2022 00:22:14 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[28-Dec-2022 00:22:19 America/Sao_Paulo] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[28-Dec-2022 00:22:19 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[28-Dec-2022 00:22:42 America/Sao_Paulo] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[28-Dec-2022 00:22:42 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[28-Dec-2022 00:22:47 America/Sao_Paulo] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[28-Dec-2022 00:22:47 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[28-Dec-2022 00:22:50 America/Sao_Paulo] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[28-Dec-2022 00:22:50 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[28-Dec-2022 00:22:54 America/Sao_Paulo] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[28-Dec-2022 00:22:54 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[28-Dec-2022 00:23:00 America/Sao_Paulo] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[28-Dec-2022 00:23:00 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[28-Dec-2022 00:23:04 America/Sao_Paulo] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[28-Dec-2022 00:23:04 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[28-Dec-2022 00:23:08 America/Sao_Paulo] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[28-Dec-2022 00:23:08 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[28-Dec-2022 00:23:12 America/Sao_Paulo] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[28-Dec-2022 00:23:12 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[28-Dec-2022 00:29:39 America/Sao_Paulo] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[28-Dec-2022 00:29:39 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[28-Dec-2022 00:29:46 America/Sao_Paulo] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[28-Dec-2022 00:29:46 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[28-Dec-2022 00:29:50 America/Sao_Paulo] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[28-Dec-2022 00:29:50 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[28-Dec-2022 00:30:22 America/Sao_Paulo] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[28-Dec-2022 00:30:22 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[28-Dec-2022 00:30:23 America/Sao_Paulo] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[28-Dec-2022 00:30:23 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[28-Dec-2022 00:31:48 America/Sao_Paulo] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[28-Dec-2022 00:31:48 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
