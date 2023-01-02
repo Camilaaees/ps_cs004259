@@ -17,7 +17,7 @@ class EmpresaController extends FrontController
         $empresas = (new Empresa)->find();
 
         $empresaAtual = new Empresa;
-        foreach($empresas as &$e) {
+        foreach($empresas as & $e) {
             $empresaAtual->loadById($e['idempresa']);
             $e['imagens'] = $empresaAtual->getFiles();
         }
