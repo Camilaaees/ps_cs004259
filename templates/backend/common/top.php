@@ -92,6 +92,10 @@
                             <div class="sb-nav-link-icon"><i class="bi bi-geo-alt-fill"></i></div>
                             Empresas
                         </a>
+                        <a class="nav-link" href="/admin/promocoes">
+                            <div class="sb-nav-link-icon"><i class="bi bi-bullseye"></i></div>
+                            Promoções
+                        </a>
 
                     </div>
                 </div>

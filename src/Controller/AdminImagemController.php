@@ -34,12 +34,17 @@ class AdminImagemController
         ];
         $htmlTabela = Render::block('tabela-admin', $dadosListagem);
 
-        // alimentando dados para a página de clientes
         $dados = [];
         $dados['titulo'] = 'Imagens - Listagem';
         $campoOrdenacao = $objetoComFiguras->getOrderByField();
         $dados['registroAlvo'] = $model . ': <u>' . $objetoComFiguras->$campoOrdenacao . '</u>';
         $dados['tabela'] = $htmlTabela;
+
+        $dados = [];
+        $dados['titulo'] = 'Imagens';
+        $dados['tabela'] = $htmlTabela;
+        $dados['usuario'] = $_SESSION['usuario'];
+
 
         Render::back('imagens', $dados);
     }
@@ -54,7 +59,6 @@ class AdminImagemController
         $objetoComFiguras = new $modelPath;
         $objetoComFiguras->loadById($idModel);
 
-        // verificar se o parâmetro tem um número e, se for número, é um ID válido
         if (is_numeric($valor)) {
             $objeto = new Arquivo;
             $resultado = $objeto->find(['idarquivo ='=>$valor]);
@@ -77,7 +81,6 @@ class AdminImagemController
     {
         $objeto = new Arquivo;
 
-        // se um $valor tem um número, carrega os dados do registro informado nele
         if (is_numeric($valor)) {
             if (!$objeto->loadById($valor)) {
                 redireciona("/admin/imagens/{$model}/{$idModel}", 'danger', 'Link inválido, registro não localizado');
@@ -95,7 +98,6 @@ class AdminImagemController
                 redireciona('/admin/dashboard', 'danger', 'Página não localizada/Clsse de dados destino não definida');
             }
 
-            // pega as informações do objeto dono do arquivo, como nome da tabela, cmapo chave e valor do campo chave
             $objetoComFiguras = new $modelPath;
             $objetoComFiguras->loadById($idModel);
             $tabela = $objetoComFiguras->getTableName();

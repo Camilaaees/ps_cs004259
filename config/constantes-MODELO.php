@@ -15,7 +15,7 @@ define('SALT_SENHA', '123ABC');
  * DEFINIÇÕES DE PATH DE ARQUIVOS
  */
 
-define('URL', 'https://localhost');
+define('URL', 'http://localhost');
 define('TEMPLATES', PATH_PROJETO, 'templates/');
 define('TBACKEND', TEMPLATES, 'backend/');
 define('TFRONTEND', TEMPLATES, 'frontend/');

@@ -58,8 +58,8 @@ class App
         self::$router->get('/fale-conosco', '\Petshop\Controller\FaleConoscoController@faleConosco');
         self::$router->post('/fale-conosco', '\Petshop\Controller\FaleConoscoController@postFaleConosco');
         self::$router->get('/categorias/{id}', '\Petshop\Controller\CategoriaController@lista');
-        // self::$router->get('/nossas-lojas', 'Petshop\Controller\NossasLojasController@nossasLojas');
         self::$router->get('/nossas-lojas', '\Petshop\Controller\EmpresaController@listar');
+        self::$router->get('/promocoes', '\Petshop\Controller\PromocoesController@listar');
     }
 
     /**
@@ -113,6 +113,10 @@ class App
             self::$router->get('/empresas', '\Petshop\Controller\AdminEmpresaController@listar');
             self::$router->get('/empresas/{valor}', '\Petshop\Controller\AdminEmpresaController@form');
             self::$router->post('/empresas/{valor}', '\Petshop\Controller\AdminEmpresaController@postForm');
+
+            self::$router->get('/promocoes', '\Petshop\Controller\AdminPromocoesController@listar');
+            self::$router->get('/promocoes/{valor}', '\Petshop\Controller\AdminPromocoesController@form');
+            self::$router->post('/promocoes/{valor}', '\Petshop\Controller\AdminPromocoesController@postForm');
         });
     }
 

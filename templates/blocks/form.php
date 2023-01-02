@@ -24,6 +24,7 @@
         switch ($f['type']) {
             case 'text':
             case 'email':
+            case 'date':
             case 'password':
                 echo <<<HTML
                         <div class="{$f['class']}">

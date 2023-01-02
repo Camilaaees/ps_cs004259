@@ -14,3 +14,243 @@
 [02-Jan-2023 07:28:15 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\nossas-lojas.php on line 26
 [02-Jan-2023 07:28:15 America/Sao_Paulo] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\nossas-lojas.php on line 26
 [02-Jan-2023 07:28:15 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\nossas-lojas.php on line 26
+[02-Jan-2023 09:10:25 America/Sao_Paulo] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\nossas-lojas.php on line 26
+[02-Jan-2023 09:10:25 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\nossas-lojas.php on line 26
+[02-Jan-2023 09:10:25 America/Sao_Paulo] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\nossas-lojas.php on line 26
+[02-Jan-2023 09:10:25 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\nossas-lojas.php on line 26
+[02-Jan-2023 09:13:42 America/Sao_Paulo] PHP Warning:  Undefined variable $empresas in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 9
+[02-Jan-2023 09:13:42 America/Sao_Paulo] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 9
+[02-Jan-2023 09:14:45 America/Sao_Paulo] PHP Warning:  Undefined array key "nomefantasia" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 09:14:45 America/Sao_Paulo] PHP Warning:  Undefined array key "tipo" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 17
+[02-Jan-2023 09:14:45 America/Sao_Paulo] PHP Warning:  Undefined array key "telefone1" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 18
+[02-Jan-2023 09:14:45 America/Sao_Paulo] PHP Warning:  Undefined array key "site" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 19
+[02-Jan-2023 09:14:45 America/Sao_Paulo] PHP Warning:  Undefined array key "email" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 20
+[02-Jan-2023 09:15:49 America/Sao_Paulo] PHP Warning:  Undefined array key "nomefantasia" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 09:16:41 America/Sao_Paulo] PHP Warning:  Undefined array key "descicao" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 16
+[02-Jan-2023 09:21:03 America/Sao_Paulo] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\nossas-lojas.php on line 26
+[02-Jan-2023 09:21:03 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\nossas-lojas.php on line 26
+[02-Jan-2023 09:21:03 America/Sao_Paulo] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\nossas-lojas.php on line 26
+[02-Jan-2023 09:21:03 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\nossas-lojas.php on line 26
+[02-Jan-2023 09:30:58 America/Sao_Paulo] PHP Warning:  Undefined array key "imagens" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 25
+[02-Jan-2023 09:30:58 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 25
+[02-Jan-2023 09:30:58 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 25
+[02-Jan-2023 09:32:27 America/Sao_Paulo] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[02-Jan-2023 09:32:27 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[02-Jan-2023 09:32:33 America/Sao_Paulo] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[02-Jan-2023 09:32:33 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[02-Jan-2023 09:32:38 America/Sao_Paulo] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[02-Jan-2023 09:32:38 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[02-Jan-2023 09:40:49 America/Sao_Paulo] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Petshop\Controller\PromocoesController::listar(), 0 passed and exactly 1 expected in C:\xampp\htdocs\ps_cs004259\src\Controller\PromocoesController.php:11
+Stack trace:
+#0 [internal function]: Petshop\Controller\PromocoesController->listar()
+#1 C:\xampp\htdocs\ps_cs004259\vendor\bramus\router\src\Bramus\Router\Router.php(482): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\ps_cs004259\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke('\\Petshop\\Contro...', Array)
+#3 C:\xampp\htdocs\ps_cs004259\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#4 C:\xampp\htdocs\ps_cs004259\src\Core\App.php(40): Bramus\Router\Router->run()
+#5 C:\xampp\htdocs\ps_cs004259\public\index.php(5): Petshop\Core\App::start()
+#6 {main}
+  thrown in C:\xampp\htdocs\ps_cs004259\src\Controller\PromocoesController.php on line 11
+[02-Jan-2023 09:41:06 America/Sao_Paulo] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Petshop\Controller\PromocoesController::listar(), 0 passed and exactly 1 expected in C:\xampp\htdocs\ps_cs004259\src\Controller\PromocoesController.php:11
+Stack trace:
+#0 [internal function]: Petshop\Controller\PromocoesController->listar()
+#1 C:\xampp\htdocs\ps_cs004259\vendor\bramus\router\src\Bramus\Router\Router.php(482): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\ps_cs004259\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke('\\Petshop\\Contro...', Array)
+#3 C:\xampp\htdocs\ps_cs004259\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#4 C:\xampp\htdocs\ps_cs004259\src\Core\App.php(40): Bramus\Router\Router->run()
+#5 C:\xampp\htdocs\ps_cs004259\public\index.php(5): Petshop\Core\App::start()
+#6 {main}
+  thrown in C:\xampp\htdocs\ps_cs004259\src\Controller\PromocoesController.php on line 11
+[02-Jan-2023 09:42:28 America/Sao_Paulo] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[02-Jan-2023 09:42:28 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[02-Jan-2023 09:42:32 America/Sao_Paulo] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[02-Jan-2023 09:42:32 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[02-Jan-2023 09:42:36 America/Sao_Paulo] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[02-Jan-2023 09:42:36 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[02-Jan-2023 09:42:39 America/Sao_Paulo] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[02-Jan-2023 09:42:39 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[02-Jan-2023 09:52:33 America/Sao_Paulo] PHP Warning:  Undefined array key "imagens" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 24
+[02-Jan-2023 09:52:33 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 24
+[02-Jan-2023 09:52:33 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 24
+[02-Jan-2023 09:52:33 America/Sao_Paulo] PHP Warning:  Undefined array key "imagens" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 24
+[02-Jan-2023 09:52:33 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 24
+[02-Jan-2023 09:52:33 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 24
+[02-Jan-2023 09:52:33 America/Sao_Paulo] PHP Warning:  Undefined array key "imagens" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 24
+[02-Jan-2023 09:52:33 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 24
+[02-Jan-2023 09:52:33 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 24
+[02-Jan-2023 10:10:28 America/Sao_Paulo] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\nossas-lojas.php on line 26
+[02-Jan-2023 10:10:28 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\nossas-lojas.php on line 26
+[02-Jan-2023 10:10:28 America/Sao_Paulo] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\nossas-lojas.php on line 26
+[02-Jan-2023 10:10:28 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\nossas-lojas.php on line 26
+[02-Jan-2023 10:11:43 America/Sao_Paulo] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[02-Jan-2023 10:11:43 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[02-Jan-2023 10:15:16 America/Sao_Paulo] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[02-Jan-2023 10:15:16 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[02-Jan-2023 10:18:09 America/Sao_Paulo] PHP Warning:  Undefined variable $categoria in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 6
+[02-Jan-2023 10:18:09 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 6
+[02-Jan-2023 10:18:09 America/Sao_Paulo] PHP Warning:  Undefined variable $categoria in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 9
+[02-Jan-2023 10:18:09 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 9
+[02-Jan-2023 10:18:09 America/Sao_Paulo] PHP Warning:  Undefined variable $categoria in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:18:09 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:18:09 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:18:09 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:18:09 America/Sao_Paulo] PHP Warning:  Undefined variable $categoria in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:18:09 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:18:09 America/Sao_Paulo] PHP Warning:  Undefined variable $produtos in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 22
+[02-Jan-2023 10:18:09 America/Sao_Paulo] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 22
+[02-Jan-2023 10:18:37 America/Sao_Paulo] PHP Warning:  Undefined variable $promocao in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 6
+[02-Jan-2023 10:18:37 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 6
+[02-Jan-2023 10:18:37 America/Sao_Paulo] PHP Warning:  Undefined variable $categoria in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 9
+[02-Jan-2023 10:18:37 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 9
+[02-Jan-2023 10:18:37 America/Sao_Paulo] PHP Warning:  Undefined variable $categoria in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:18:37 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:18:37 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:18:37 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:18:37 America/Sao_Paulo] PHP Warning:  Undefined variable $categoria in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:18:37 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:18:37 America/Sao_Paulo] PHP Warning:  Undefined variable $produtos in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 22
+[02-Jan-2023 10:18:37 America/Sao_Paulo] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 22
+[02-Jan-2023 10:20:12 America/Sao_Paulo] PHP Warning:  Undefined variable $promocao in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 6
+[02-Jan-2023 10:20:12 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 6
+[02-Jan-2023 10:20:12 America/Sao_Paulo] PHP Warning:  Undefined variable $promocao in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 9
+[02-Jan-2023 10:20:12 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 9
+[02-Jan-2023 10:20:12 America/Sao_Paulo] PHP Warning:  Undefined variable $promocao in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:20:12 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:20:12 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:20:12 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:20:12 America/Sao_Paulo] PHP Warning:  Undefined variable $promocao in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:20:12 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:20:12 America/Sao_Paulo] PHP Warning:  Undefined variable $promocao in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 22
+[02-Jan-2023 10:20:12 America/Sao_Paulo] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 22
+[02-Jan-2023 10:21:05 America/Sao_Paulo] PHP Warning:  Undefined variable $promocao in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 6
+[02-Jan-2023 10:21:05 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 6
+[02-Jan-2023 10:21:05 America/Sao_Paulo] PHP Warning:  Undefined variable $promocao in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 9
+[02-Jan-2023 10:21:05 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 9
+[02-Jan-2023 10:21:05 America/Sao_Paulo] PHP Warning:  Undefined variable $promocao in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:21:05 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:21:05 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:21:05 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:21:05 America/Sao_Paulo] PHP Warning:  Undefined variable $promocao in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:21:05 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:21:05 America/Sao_Paulo] PHP Warning:  Undefined array key "nome" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 30
+[02-Jan-2023 10:21:05 America/Sao_Paulo] PHP Warning:  Undefined array key "nome" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 30
+[02-Jan-2023 10:21:05 America/Sao_Paulo] PHP Warning:  Undefined array key "nome" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 30
+[02-Jan-2023 10:21:49 America/Sao_Paulo] PHP Warning:  Undefined array key "titulo" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 6
+[02-Jan-2023 10:21:49 America/Sao_Paulo] PHP Warning:  Undefined array key "descricao" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 9
+[02-Jan-2023 10:21:49 America/Sao_Paulo] PHP Warning:  Undefined array key "imagens" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:21:49 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:21:49 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:21:49 America/Sao_Paulo] PHP Warning:  Undefined variable $promocao in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:21:49 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:21:49 America/Sao_Paulo] PHP Warning:  Undefined array key "nome" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 30
+[02-Jan-2023 10:21:49 America/Sao_Paulo] PHP Warning:  Undefined array key "nome" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 30
+[02-Jan-2023 10:21:49 America/Sao_Paulo] PHP Warning:  Undefined array key "nome" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 30
+[02-Jan-2023 10:22:08 America/Sao_Paulo] PHP Warning:  Undefined array key "titulo" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 6
+[02-Jan-2023 10:22:08 America/Sao_Paulo] PHP Warning:  Undefined array key "descricao" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 9
+[02-Jan-2023 10:22:08 America/Sao_Paulo] PHP Warning:  Undefined array key "imagens" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:22:08 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:22:08 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:22:08 America/Sao_Paulo] PHP Warning:  Undefined variable $promocao in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:22:08 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:22:11 America/Sao_Paulo] PHP Warning:  Undefined array key "titulo" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 6
+[02-Jan-2023 10:22:11 America/Sao_Paulo] PHP Warning:  Undefined array key "descricao" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 9
+[02-Jan-2023 10:22:11 America/Sao_Paulo] PHP Warning:  Undefined array key "imagens" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:22:11 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:22:11 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:22:11 America/Sao_Paulo] PHP Warning:  Undefined variable $promocao in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:22:11 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:22:32 America/Sao_Paulo] PHP Warning:  Undefined array key "titulo" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 6
+[02-Jan-2023 10:22:32 America/Sao_Paulo] PHP Warning:  Undefined array key "descricao" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 9
+[02-Jan-2023 10:22:32 America/Sao_Paulo] PHP Warning:  Undefined array key "imagens" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:22:32 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:22:32 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:22:32 America/Sao_Paulo] PHP Warning:  Undefined variable $promocao in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:22:32 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:22:41 America/Sao_Paulo] PHP Warning:  Undefined array key "titulo" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 6
+[02-Jan-2023 10:22:41 America/Sao_Paulo] PHP Warning:  Undefined array key "descricao" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 9
+[02-Jan-2023 10:22:41 America/Sao_Paulo] PHP Warning:  Undefined array key "imagens" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:22:41 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:22:41 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:22:41 America/Sao_Paulo] PHP Warning:  Undefined variable $promocao in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:22:41 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:23:00 America/Sao_Paulo] PHP Warning:  Undefined array key "titulo" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 6
+[02-Jan-2023 10:23:00 America/Sao_Paulo] PHP Warning:  Undefined array key "descricao" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 9
+[02-Jan-2023 10:23:00 America/Sao_Paulo] PHP Warning:  Undefined array key "imagens" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:23:00 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:23:00 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:23:00 America/Sao_Paulo] PHP Warning:  Undefined variable $promocao in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:23:00 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:23:00 America/Sao_Paulo] PHP Warning:  Undefined variable $primeiraImagem in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 30
+[02-Jan-2023 10:23:00 America/Sao_Paulo] PHP Warning:  Undefined variable $primeiraImagem in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 30
+[02-Jan-2023 10:23:00 America/Sao_Paulo] PHP Warning:  Undefined variable $primeiraImagem in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 30
+[02-Jan-2023 10:23:04 America/Sao_Paulo] PHP Warning:  Undefined array key "titulo" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 6
+[02-Jan-2023 10:23:04 America/Sao_Paulo] PHP Warning:  Undefined array key "descricao" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 9
+[02-Jan-2023 10:23:04 America/Sao_Paulo] PHP Warning:  Undefined array key "imagens" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:23:04 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:23:04 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:23:04 America/Sao_Paulo] PHP Warning:  Undefined variable $promocao in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:23:04 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:23:16 America/Sao_Paulo] PHP Warning:  Undefined array key "titulo" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 6
+[02-Jan-2023 10:23:16 America/Sao_Paulo] PHP Warning:  Undefined array key "descricao" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 9
+[02-Jan-2023 10:23:16 America/Sao_Paulo] PHP Warning:  Undefined array key "imagens" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:23:16 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:23:16 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:23:16 America/Sao_Paulo] PHP Warning:  Undefined variable $promocao in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:23:16 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:24:55 America/Sao_Paulo] PHP Warning:  Undefined array key "titulo" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 6
+[02-Jan-2023 10:24:55 America/Sao_Paulo] PHP Warning:  Undefined array key "descricao" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 9
+[02-Jan-2023 10:24:55 America/Sao_Paulo] PHP Warning:  Undefined array key "imagens" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:24:55 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:24:55 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:24:55 America/Sao_Paulo] PHP Warning:  Undefined variable $promocao in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:24:55 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:25:37 America/Sao_Paulo] PHP Warning:  Undefined array key "titulo" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 6
+[02-Jan-2023 10:25:37 America/Sao_Paulo] PHP Warning:  Undefined array key "descricao" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 9
+[02-Jan-2023 10:25:37 America/Sao_Paulo] PHP Warning:  Undefined array key "imagens" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:25:37 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:25:37 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:25:37 America/Sao_Paulo] PHP Warning:  Undefined variable $promocao in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:25:37 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:25:58 America/Sao_Paulo] PHP Warning:  Undefined array key "titulo" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 6
+[02-Jan-2023 10:25:58 America/Sao_Paulo] PHP Warning:  Undefined array key "descricao" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 9
+[02-Jan-2023 10:25:58 America/Sao_Paulo] PHP Warning:  Undefined array key "imagens" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:25:58 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:25:58 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:25:58 America/Sao_Paulo] PHP Warning:  Undefined variable $promocao in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:25:58 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 13
+[02-Jan-2023 10:29:14 America/Sao_Paulo] PHP Warning:  Undefined array key "imagens" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 7
+[02-Jan-2023 10:29:14 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 7
+[02-Jan-2023 10:29:14 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 7
+[02-Jan-2023 10:29:14 America/Sao_Paulo] PHP Warning:  Undefined variable $promocao in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 7
+[02-Jan-2023 10:29:14 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 7
+[02-Jan-2023 10:29:20 America/Sao_Paulo] PHP Warning:  Undefined array key "imagens" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 7
+[02-Jan-2023 10:29:20 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 7
+[02-Jan-2023 10:29:20 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 7
+[02-Jan-2023 10:29:20 America/Sao_Paulo] PHP Warning:  Undefined variable $promocao in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 7
+[02-Jan-2023 10:29:20 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 7
+[02-Jan-2023 10:32:05 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected string content "", expecting "-" or identifier or variable or number in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 18
+[02-Jan-2023 10:32:06 America/Sao_Paulo] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[02-Jan-2023 10:32:06 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\categorias.php on line 13
+[02-Jan-2023 10:32:07 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected string content "", expecting "-" or identifier or variable or number in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 18
+[02-Jan-2023 10:32:27 America/Sao_Paulo] PHP Warning:  Undefined variable $e in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 21
+[02-Jan-2023 10:32:27 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 21
+[02-Jan-2023 10:32:27 America/Sao_Paulo] PHP Warning:  Undefined variable $e in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 24
+[02-Jan-2023 10:32:27 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 24
+[02-Jan-2023 10:32:27 America/Sao_Paulo] PHP Warning:  Undefined variable $e in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 25
+[02-Jan-2023 10:32:27 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 25
+[02-Jan-2023 10:32:27 America/Sao_Paulo] PHP Warning:  Undefined variable $e in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 26
+[02-Jan-2023 10:32:27 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 26
+[02-Jan-2023 10:32:27 America/Sao_Paulo] PHP Warning:  Undefined variable $e in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 27
+[02-Jan-2023 10:32:27 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 27
+[02-Jan-2023 10:32:27 America/Sao_Paulo] PHP Warning:  Undefined variable $e in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 28
+[02-Jan-2023 10:32:27 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 28
+[02-Jan-2023 10:33:36 America/Sao_Paulo] PHP Warning:  Undefined variable $e in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 20
+[02-Jan-2023 10:33:36 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 20
+[02-Jan-2023 10:34:31 America/Sao_Paulo] PHP Warning:  Undefined array key "razaosocial" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 23
+[02-Jan-2023 10:34:31 America/Sao_Paulo] PHP Warning:  Undefined array key "tipo" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 24
+[02-Jan-2023 10:34:31 America/Sao_Paulo] PHP Warning:  Undefined array key "telefone1" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 25
+[02-Jan-2023 10:34:31 America/Sao_Paulo] PHP Warning:  Undefined array key "site" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 26
+[02-Jan-2023 10:34:31 America/Sao_Paulo] PHP Warning:  Undefined array key "email" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 27
+[02-Jan-2023 10:35:04 America/Sao_Paulo] PHP Warning:  Undefined array key "tipo" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 23
+[02-Jan-2023 10:35:04 America/Sao_Paulo] PHP Warning:  Undefined array key "telefone1" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 24
+[02-Jan-2023 10:35:04 America/Sao_Paulo] PHP Warning:  Undefined array key "site" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 25
+[02-Jan-2023 10:35:04 America/Sao_Paulo] PHP Warning:  Undefined array key "email" in C:\xampp\htdocs\ps_cs004259\templates\frontend\pages\promocoes.php on line 26
